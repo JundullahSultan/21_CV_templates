@@ -1,0 +1,34 @@
+{
+  "name": "cv-studio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "builder": "vite",
+    "build": "node tools/build-app.cjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "generate": "node tools/update-cvs.cjs",
+    "check": "node tools/check-cvs.cjs",
+    "check:app": "node tools/check-app.cjs",
+    "check:builder": "node tools/check-app.cjs",
+    "check:scale": "node tools/check-gallery-scale.cjs",
+    "check:all": "npm run check:app && npm run check && npm run check:scale && npm run check:editing && npm run check:pdf",
+    "check:pdf": "node tools/check-pdf-export.cjs",
+    "check:editing": "node tools/check-click-edit.cjs"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "^6.4.299",
+    "playwright": "1.62.1",
+    "prettier": "^3.9.10"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "postcss": "^8.5.30",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "vite": "^8.3.4"
+  }
+}

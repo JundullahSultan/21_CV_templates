@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/((?!assets/|templates/|thumbnails/|fonts/|pdf/|manifest.json|sections.json).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

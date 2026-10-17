@@ -1,0 +1,2009 @@
+{
+  "10": {
+    "name": "Rizka Dian",
+    "city": "Tangerang Selatan, Indonesia",
+    "phone": "+62 094 000 291",
+    "email": "youremail@gmail.com",
+    "summary": "HR and marketing professional with experience in employee relations, content creation, and team coordination. I am seeking a people-focused role where I can strengthen workplace processes and support organizational growth.",
+    "jobs": [
+      {
+        "title": "Assistant Manager",
+        "organization": "PT. Sinar Jaya",
+        "dates": "May 2022 - Present",
+        "bullets": [
+          "Replace with a team coordination outcome from this role.",
+          "Replace with an operational process you improved and its result."
+        ]
+      },
+      {
+        "title": "Marketing Supervisor",
+        "organization": "Apotek Sejahtera",
+        "dates": "Jan 2021 - Sep 2022",
+        "bullets": [
+          "Replace with a marketing campaign you delivered and its outcome.",
+          "Replace with an audience or sales insight you applied."
+        ]
+      },
+      {
+        "title": "Human Resources",
+        "organization": "PT. Jaya Abadi",
+        "dates": "Dec 2020 - Feb 2021",
+        "bullets": [
+          "Replace with an employee support process you delivered.",
+          "Replace with a recruitment or HR administration improvement."
+        ]
+      },
+      {
+        "title": "Content Creator (part-time)",
+        "organization": "Lifespan Agency",
+        "dates": "Apr 2020 - Present",
+        "bullets": [
+          "Replace with content you produced and the audience it served.",
+          "Replace with a content planning or publishing improvement."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Economics",
+        "institution": "Universitas Indonesia",
+        "year": "2024"
+      }
+    ],
+    "skills": [
+      "Negotiation",
+      "Digital marketing",
+      "Market research",
+      "Communication",
+      "Team leadership"
+    ],
+    "colors": ["#ffdb20", "#f8f5ec", "#3c3a37"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "11": {
+    "name": "Aisyah Nisa Afifah",
+    "city": "Pemalang, Indonesia",
+    "phone": "Phone number (replace)",
+    "email": "aisyah@example.com",
+    "summary": "Creative editor exploring visual storytelling through social media design and video editing. I am seeking a junior creative role where I can develop my skills and contribute engaging digital content.",
+    "jobs": [
+      {
+        "title": "Creative Editor",
+        "organization": "AAD / KS collaborations",
+        "dates": "Late 2024 - Present",
+        "bullets": [
+          "Created edits and visual content through AAD community projects.",
+          "Collaborated with KS and CF on creative editing work."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Degree / qualification (replace)",
+        "institution": "Institution (replace)",
+        "year": "Graduation year (replace)"
+      }
+    ],
+    "skills": [
+      "Video editing",
+      "Social media design",
+      "Canva",
+      "CapCut",
+      "Visual storytelling"
+    ],
+    "colors": ["#00d8e8", "#082636", "#f6faf9"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "12": {
+    "name": "Aejaz Memon",
+    "city": "City, Country (replace)",
+    "phone": "Phone number (replace)",
+    "email": "Email address (replace)",
+    "summary": "Senior UI/UX designer focused on clear interfaces, thoughtful systems, and useful digital experiences. I am seeking a product design role where I can connect user research with strong visual execution.",
+    "jobs": [
+      {
+        "title": "Senior UI/UX Designer",
+        "organization": "Organization (replace)",
+        "dates": "Dates (replace)",
+        "bullets": [
+          "Replace with a product flow you redesigned and its user benefit.",
+          "Replace with a design system or prototype you delivered."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Degree / qualification (replace)",
+        "institution": "Institution (replace)",
+        "year": "Graduation year (replace)"
+      }
+    ],
+    "skills": [
+      "UI/UX design",
+      "Product design",
+      "Design systems",
+      "Prototyping",
+      "User research"
+    ],
+    "colors": ["#3298eb", "#eeece5", "#11110f"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "13": {
+    "name": "Your Full Name",
+    "city": "Jakarta, Indonesia",
+    "phone": "+62 812 3456 7890",
+    "email": "hello@yourname.com",
+    "summary": "Independent UI/UX designer helping brands turn complex problems into clear, user-centered experiences. I am seeking freelance projects and collaborative product design opportunities.",
+    "jobs": [
+      {
+        "title": "Independent UI/UX Designer",
+        "organization": "Independent practice (sample)",
+        "dates": "2023 - Present (sample)",
+        "bullets": [
+          "Designed user-centered interfaces and interactive prototypes (sample).",
+          "Translated research findings into clear product flows (sample)."
+        ]
+      },
+      {
+        "title": "Product Designer",
+        "organization": "Organization (replace)",
+        "dates": "2020 - 2023 (sample)",
+        "bullets": [
+          "Created reusable components for digital products (sample).",
+          "Documented design decisions for developer handoff (sample)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Degree / qualification (replace)",
+        "institution": "Institution (replace)",
+        "year": "Graduation year (replace)"
+      }
+    ],
+    "skills": [
+      "UX research",
+      "UI design",
+      "Visual systems",
+      "Prototyping",
+      "Usability testing"
+    ],
+    "colors": ["#c81720", "#f4ece2", "#10100f"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "14": {
+    "name": "Alex Morgan",
+    "city": "Portland, USA",
+    "phone": "Phone number (replace)",
+    "email": "alex@example.com",
+    "summary": "Multidisciplinary designer working across strategy, brand identity, and digital products. I am seeking creative partnerships where I can turn complex ideas into useful, memorable experiences.",
+    "jobs": [
+      {
+        "title": "Design Director",
+        "organization": "Common Ground Studio",
+        "dates": "2023 - Present",
+        "bullets": [
+          "Set creative direction for brand and digital projects.",
+          "Guided a small design team and managed client partnerships."
+        ]
+      },
+      {
+        "title": "Senior Designer",
+        "organization": "Ordinary People",
+        "dates": "2021 - 2023",
+        "bullets": [
+          "Designed visual identities and websites for independent businesses.",
+          "Built a shared component library across client launches."
+        ]
+      },
+      {
+        "title": "Visual Designer",
+        "organization": "Fieldwork",
+        "dates": "2019 - 2021",
+        "bullets": [
+          "Translated early concepts into editorial layouts and campaign assets.",
+          "Created visual systems for both print and digital channels."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BFA, Communication Design",
+        "institution": "Pacific Northwest College of Art",
+        "year": "2019"
+      }
+    ],
+    "skills": [
+      "Brand strategy",
+      "Digital product design",
+      "Creative direction",
+      "Prototyping"
+    ],
+    "colors": ["#ff562d", "#f8f5ee", "#151515"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "15": {
+    "name": "Jordan Park",
+    "city": "Seattle, USA",
+    "phone": "Phone number (replace)",
+    "email": "jordan@example.com",
+    "summary": "Software engineer building reliable platforms, accessible interfaces, and developer tools. I am seeking an engineering role where I can simplify complex systems and help teams ship dependable products.",
+    "jobs": [
+      {
+        "title": "Staff Software Engineer",
+        "organization": "Orbit Labs",
+        "dates": "2023 - Present",
+        "bullets": [
+          "Improved deployment workflows for platform engineering teams.",
+          "Led a migration toward a simpler event-driven architecture."
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "organization": "Baseline",
+        "dates": "2020 - 2023",
+        "bullets": [
+          "Built accessible interfaces and resilient product APIs.",
+          "Delivered an analytics workspace with designers and product partners."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "organization": "Thread",
+        "dates": "2017 - 2020",
+        "bullets": [
+          "Shipped customer-facing product features.",
+          "Improved tests for critical workflows and contributed shared components."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "University of Washington",
+        "year": "2017"
+      }
+    ],
+    "skills": ["TypeScript", "React", "Node.js", "Python", "PostgreSQL", "AWS"],
+    "colors": ["#b7f36b", "#101b19", "#dce7df"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "16": {
+    "name": "Olivia Reed",
+    "city": "Bristol, United Kingdom",
+    "phone": "Phone number (replace)",
+    "email": "olivia@example.com",
+    "summary": "Brand strategist and writer helping thoughtful businesses find their voice and tell meaningful stories. I am seeking partnerships with purpose-led teams that value clear communication and intentional growth.",
+    "jobs": [
+      {
+        "title": "Independent Brand Strategist",
+        "organization": "Independent practice",
+        "dates": "2022 - Present",
+        "bullets": [
+          "Developed brand positioning and verbal identities for purpose-led businesses.",
+          "Guided founders through research and discovery workshops."
+        ]
+      },
+      {
+        "title": "Senior Content Strategist",
+        "organization": "The Good Company",
+        "dates": "2019 - 2022",
+        "bullets": [
+          "Created editorial strategies for culture and wellbeing brands.",
+          "Led writers from campaign concept through final delivery."
+        ]
+      },
+      {
+        "title": "Writer & Creative Associate",
+        "organization": "Paper & Root",
+        "dates": "2016 - 2019",
+        "bullets": [
+          "Wrote copy for websites, publications, and campaigns.",
+          "Worked with designers to deliver coherent visual and verbal stories."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MA, Creative Writing",
+        "institution": "University of Bristol",
+        "year": "2018"
+      },
+      {
+        "degree": "BA, Communication",
+        "institution": "University of Bath",
+        "year": "2016"
+      }
+    ],
+    "skills": [
+      "Brand positioning",
+      "Verbal identity",
+      "Content strategy",
+      "Editorial storytelling",
+      "Workshop facilitation"
+    ],
+    "colors": ["#a36145", "#faf7ee", "#314738"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "17": {
+    "name": "Sam Rivera",
+    "city": "Oakland, USA",
+    "phone": "Phone number (replace)",
+    "email": "sam@example.com",
+    "summary": "Designer and art director creating bold identities, motion graphics, and playful digital experiences. I am seeking creative partnerships where brave ideas can become expressive, memorable work.",
+    "jobs": [
+      {
+        "title": "Independent Creative",
+        "organization": "Sam Rivera Studio",
+        "dates": "2023 - Present",
+        "bullets": [
+          "Built bold brand identities and playful digital experiences.",
+          "Delivered creative work from initial concepts to final production."
+        ]
+      },
+      {
+        "title": "Senior Brand Designer",
+        "organization": "Studio Good Trouble",
+        "dates": "2021 - 2023",
+        "bullets": [
+          "Led brand refreshes and integrated campaigns for culture clients.",
+          "Introduced motion principles into visual identity systems."
+        ]
+      },
+      {
+        "title": "Designer",
+        "organization": "Oddly Enough",
+        "dates": "2019 - 2021",
+        "bullets": [
+          "Created visual systems, social campaigns, and editorial concepts.",
+          "Worked with writers and developers to launch creative ideas."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BFA, Visual Arts",
+        "institution": "California College of the Arts",
+        "year": "2019"
+      }
+    ],
+    "skills": [
+      "Art Direction",
+      "Brand Design",
+      "Motion",
+      "3D Experiments",
+      "Digital Design"
+    ],
+    "colors": ["#b9a2e6", "#f7f1e5", "#242136"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "18": {
+    "name": "Alex Taylor",
+    "summary": "Marketing specialist experienced in digital campaigns, content planning, and customer research. I am seeking a collaborative role where I can turn audience insights into clear campaigns and meaningful customer experiences.",
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en",
+    "role": "Marketing Specialist",
+    "phone": "+1 202 555 0148",
+    "email": "alex.taylor@example.com",
+    "city": "London, United Kingdom",
+    "portfolio": "https://www.linkedin.com/",
+    "jobs": [
+      {
+        "title": "Marketing Specialist",
+        "organization": "Northline Studio",
+        "dates": "2023 – Present",
+        "bullets": [
+          "Delivered integrated email and social campaigns, coordinating content from brief to launch.",
+          "Built campaign reporting templates that gave the team a consistent view of performance.",
+          "Turned customer research into messaging guides used across marketing channels."
+        ]
+      },
+      {
+        "title": "Digital Marketing Coordinator",
+        "organization": "Field & Form",
+        "dates": "2021 – 2023",
+        "bullets": [
+          "Created a shared content calendar to align product launches and seasonal campaigns.",
+          "Refined landing-page copy using feedback from customers and the sales team."
+        ]
+      },
+      {
+        "title": "Content Assistant",
+        "organization": "Common Ground Agency",
+        "dates": "2019 – 2021",
+        "bullets": [
+          "Produced newsletters, blog articles, and social assets for client campaigns.",
+          "Organized reusable brand assets and editorial guidelines for the creative team."
+        ]
+      },
+      {
+        "title": "Marketing Intern",
+        "organization": "Brightside Collective",
+        "dates": "2018 – 2019",
+        "bullets": [
+          "Prepared competitor research and audience summaries for campaign planning.",
+          "Created event promotion materials and coordinated final production assets."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA (Hons), Marketing",
+        "institution": "University of the West of England",
+        "year": "2019"
+      }
+    ],
+    "skills": [
+      "Campaign planning",
+      "Content strategy",
+      "Email marketing",
+      "Customer research",
+      "Copywriting",
+      "Performance reporting"
+    ]
+  },
+  "19": {
+    "name": "Jamie Morgan",
+    "summary": "Operations coordinator experienced in organizing projects, supporting teams, and improving everyday workflows. I am seeking a collaborative role where I can bring clear communication and practical structure to a growing organization.",
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en",
+    "role": "Operations Coordinator",
+    "phone": "+44 20 7946 0182",
+    "email": "jamie.morgan@example.com",
+    "city": "London, United Kingdom",
+    "portfolio": "https://www.linkedin.com/",
+    "jobs": [
+      {
+        "title": "Operations Coordinator",
+        "organization": "Northline Studio",
+        "dates": "2023 – Present",
+        "bullets": [
+          "Created a shared request tracker that gave teams a clear view of priorities and ownership.",
+          "Documented recurring workflows and built handover checklists for daily operations.",
+          "Coordinated project schedules and delivered consistent stakeholder updates."
+        ]
+      },
+      {
+        "title": "Project Administrator",
+        "organization": "Common Ground Agency",
+        "dates": "2021 – 2023",
+        "bullets": [
+          "Maintained project plans, meeting notes, and action logs across client engagements.",
+          "Built reusable reporting templates to simplify weekly progress reviews.",
+          "Organized onboarding materials and access requests for new team members."
+        ]
+      },
+      {
+        "title": "Customer Support Assistant",
+        "organization": "Field & Form",
+        "dates": "2019 – 2021",
+        "bullets": [
+          "Resolved customer enquiries and documented common questions in a shared knowledge base.",
+          "Created response templates to make routine communication clearer and more consistent."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA (Hons), Business Management",
+        "institution": "Manchester Metropolitan University",
+        "year": "2019"
+      }
+    ],
+    "skills": [
+      "Project coordination",
+      "Process documentation",
+      "Team communication",
+      "Scheduling & planning",
+      "Spreadsheet reporting",
+      "Customer support"
+    ]
+  },
+  "20": {
+    "name": "Clara Bennett",
+    "summary": "Brand strategist and communications lead with eight years of experience helping independent businesses find a clear voice and connect with their audiences. I combine research, editorial thinking, and collaborative leadership to build thoughtful brands, and I am seeking a senior strategy role with a purpose-led team.",
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en",
+    "role": "Brand Strategist & Communications Lead",
+    "phone": "+44 20 7946 0157",
+    "email": "clara.bennett@example.com",
+    "city": "London, United Kingdom",
+    "portfolio": "https://example.com/clara-bennett",
+    "jobs": [
+      {
+        "title": "Senior Brand Strategist",
+        "organization": "Oak & Letter Studio — London, UK",
+        "dates": "2022 – Present",
+        "bullets": [
+          "Led positioning and messaging projects for 12 independent brands, from discovery workshops to launch.",
+          "Created a shared strategy framework that shortened project handovers by 25%.",
+          "Mentored three writers and partnered with designers to deliver cohesive brand experiences."
+        ]
+      },
+      {
+        "title": "Communications Manager",
+        "organization": "Meadow Collective — Bristol, UK",
+        "dates": "2019 – 2022",
+        "bullets": [
+          "Built an editorial programme across email, social, and web, growing newsletter readership by 38%.",
+          "Introduced audience research and content guidelines used by a six-person marketing team.",
+          "Coordinated a brand refresh across customer communications, packaging, and digital channels."
+        ]
+      },
+      {
+        "title": "Content & Marketing Executive",
+        "organization": "Paperhouse Agency — Bath, UK",
+        "dates": "2017 – 2019",
+        "bullets": [
+          "Wrote campaign copy, website content, and editorial articles for lifestyle and culture clients.",
+          "Developed a reusable briefing process that reduced revision rounds and improved creative alignment."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MA, Brand Communication",
+        "institution": "Bath Spa University — Bath, UK",
+        "year": "2017"
+      },
+      {
+        "degree": "BA (Hons), English Literature",
+        "institution": "University of Bristol — Bristol, UK",
+        "year": "2016"
+      }
+    ],
+    "skills": [
+      "Strategy & researchBrand positioning · Audience research · Workshop facilitation · Campaign planning",
+      "Communication & deliveryCopywriting · Editorial strategy · Stakeholder management · Creative team leadership"
+    ]
+  },
+  "21": {
+    "name": "Daniel Brooks",
+    "summary": "Product operations specialist with seven years of experience improving delivery workflows, coordinating launches, and turning customer feedback into practical insights. I am seeking a collaborative role where I can help product teams make clearer decisions and deliver better customer experiences.",
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en",
+    "role": "Product Operations Specialist",
+    "phone": "+44 20 7946 0163",
+    "email": "daniel.brooks@example.com",
+    "city": "London, United Kingdom",
+    "portfolio": "https://example.com/daniel-brooks",
+    "jobs": [
+      {
+        "title": "Senior Product Operations Specialist",
+        "organization": "Northbridge Digital",
+        "dates": "2023 – Present",
+        "bullets": [
+          "Built a shared launch checklist used across four product teams, reducing missed handover steps.",
+          "Introduced a customer-feedback workflow that connected support insights with quarterly planning.",
+          "Created weekly product health reports to align engineering, support, and leadership."
+        ]
+      },
+      {
+        "title": "Product Operations Coordinator",
+        "organization": "Fieldwork Technologies",
+        "dates": "2020 – 2023",
+        "bullets": [
+          "Coordinated release communications and onboarding materials for a new customer workspace.",
+          "Consolidated project requests into a single intake process, improving visibility and ownership.",
+          "Documented recurring workflows and reduced time spent preparing monthly reviews by 30%."
+        ]
+      },
+      {
+        "title": "Customer Success Associate",
+        "organization": "Common Ground Software",
+        "dates": "2018 – 2020",
+        "bullets": [
+          "Created help-center articles and response templates for frequently reported customer questions.",
+          "Partnered with product designers to identify onboarding friction and test clearer guidance."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BA (Hons), Business Management",
+        "institution": "Leeds Beckett University",
+        "year": "2018"
+      },
+      {
+        "degree": "Professional Certificate in Data Analysis",
+        "institution": "Northbridge Learning Academy",
+        "year": "2021"
+      }
+    ],
+    "skills": [
+      "Product operations",
+      "Launch planning",
+      "Customer research",
+      "Process improvement",
+      "Data reporting",
+      "Stakeholder communication"
+    ]
+  },
+  "01": {
+    "name": "Nathaniel Bibler",
+    "city": "New York, USA",
+    "phone": "+1-234-097-864",
+    "email": "hello@company.io",
+    "summary": "UX/UI designer creating clear, intuitive digital experiences through research and thoughtful visual design. I am looking for a product design role where I can build useful, accessible products with a collaborative team.",
+    "jobs": [
+      {
+        "title": "Senior UX Designer",
+        "organization": "Studio North",
+        "dates": "2024 - Present",
+        "bullets": [
+          "Built scalable components and design systems for web and mobile products.",
+          "Partnered with engineers to deliver accessible interfaces."
+        ]
+      },
+      {
+        "title": "UI/UX Designer",
+        "organization": "Form & Field",
+        "dates": "2022 - 2024",
+        "bullets": [
+          "Turned research insights into wireframes and interactive prototypes.",
+          "Delivered cohesive visual interfaces across platforms."
+        ]
+      },
+      {
+        "title": "Junior Designer",
+        "organization": "Made Studio",
+        "dates": "2020 - 2022",
+        "bullets": [
+          "Designed responsive landing pages and websites.",
+          "Prepared visual assets and documented design handoffs."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Design",
+        "institution": "Parsons School of Design",
+        "year": "2024"
+      },
+      {
+        "degree": "BFA, Design",
+        "institution": "Pratt Institute",
+        "year": "2022"
+      },
+      {
+        "degree": "UX Certificate",
+        "institution": "Design Academy",
+        "year": "2018"
+      }
+    ],
+    "skills": [
+      "UI/UX design",
+      "User research",
+      "Prototyping",
+      "Design systems",
+      "User flows"
+    ],
+    "colors": ["#c8f000", "#f5f4f3", "#181818"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "02": {
+    "name": "Trinh",
+    "city": "Ho Chi Minh City, Vietnam",
+    "phone": "0767166639",
+    "email": "ducthinh328@gmail.com",
+    "summary": "Graphic designer with experience in packaging, print, and digital content, and an interest in photography and film. I am seeking a creative design role where I can develop distinctive visual stories and contribute to a collaborative studio.",
+    "jobs": [
+      {
+        "title": "Graphic Designer",
+        "organization": "Focus Learning",
+        "dates": "2023",
+        "bullets": [
+          "Designed posters, banners, and other 2D publications.",
+          "Contributed to shooting and filming activities."
+        ]
+      },
+      {
+        "title": "Graphic Design Student / Project Designer",
+        "organization": "FPT Polytechnic",
+        "dates": "2021 - 2023",
+        "bullets": [
+          "Created packaging concepts for the Thanh Tam tea project.",
+          "Developed Nintendo Switch packaging and visuals for the ÂM SẮC music project."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Graphic Design qualification (confirm exact award)",
+        "institution": "FPT Polytechnic",
+        "year": "2024"
+      }
+    ],
+    "skills": [
+      "Graphic design",
+      "Packaging",
+      "Brand identity",
+      "Photoshop",
+      "Illustrator"
+    ],
+    "colors": ["#fb8535", "#fff8e5", "#b3283b"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "03": {
+    "name": "Sujal Kumar",
+    "city": "Karachi, Pakistan",
+    "phone": "+92 347 099 1640",
+    "email": "Sujallarai123@gmail.com",
+    "summary": "Graphic designer and illustrator creating branding, digital content, and print materials with Adobe Illustrator and Canva. I am seeking a design role where I can combine visual storytelling with thoughtful execution.",
+    "jobs": [
+      {
+        "title": "Graphic Designer Intern",
+        "organization": "Evocraft Services",
+        "dates": "2023 - 2024",
+        "bullets": [
+          "Produced branding and campaign visuals across digital channels.",
+          "Refined layouts using feedback from the marketing team."
+        ]
+      },
+      {
+        "title": "Freelance Graphic Designer / Illustrator",
+        "organization": "Fiverr",
+        "dates": "2021 - 2024",
+        "bullets": [
+          "Created wedding invitations, illustrations, and professional resumes.",
+          "Delivered client projects with coordinated revisions and final assets."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Intermediate",
+        "institution": "BISE Sukkur Board",
+        "year": "2023"
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "BSEK Karachi Board",
+        "year": "2021"
+      }
+    ],
+    "skills": [
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Canva",
+      "DaVinci Resolve",
+      "Microsoft Word"
+    ],
+    "colors": ["#d8e729", "#fdfbf1", "#10110e"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "04": {
+    "name": "Henry Madison",
+    "city": "New York, USA",
+    "phone": "+0000 1234 5678",
+    "email": "info@yourmail.com",
+    "summary": "Graphic designer focused on brand identities, editorial design, and digital experiences. I am looking for a collaborative creative role where I can turn clear ideas into distinctive visual work.",
+    "jobs": [
+      {
+        "title": "Senior Designer",
+        "organization": "Studio North",
+        "dates": "2022 - Present",
+        "bullets": [
+          "Led brand and digital design projects from concept to delivery.",
+          "Developed cohesive visual identities across customer touchpoints."
+        ]
+      },
+      {
+        "title": "Graphic Designer",
+        "organization": "Form Creative",
+        "dates": "2019 - 2022",
+        "bullets": [
+          "Designed marketing campaigns and editorial layouts.",
+          "Created visual identities for clients across different sectors."
+        ]
+      },
+      {
+        "title": "Junior Designer",
+        "organization": "Made Studio",
+        "dates": "2017 - 2019",
+        "bullets": [
+          "Prepared production assets for print and digital use.",
+          "Developed visual concepts and polished client presentations."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Design",
+        "institution": "Parsons School",
+        "year": "2017"
+      },
+      {
+        "degree": "BFA, Graphic Design",
+        "institution": "Pratt Institute",
+        "year": "2015"
+      }
+    ],
+    "skills": ["Premiere Pro", "After Effects", "Photoshop", "Illustrator"],
+    "colors": ["#aaaab2", "#ffffff", "#303039"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "05": {
+    "name": "Dicky Prayuda",
+    "city": "Jakarta, Indonesia",
+    "phone": "+00 1234 56789",
+    "email": "info@example.com",
+    "summary": "Graphic designer combining creative thinking with a practical approach to branding, digital design, and print. I am seeking a design role where I can create clear visual communication and collaborate closely with a creative team.",
+    "jobs": [
+      {
+        "title": "Senior Graphic Designer",
+        "organization": "Studio North",
+        "dates": "2022 - Present",
+        "bullets": [
+          "Led visual identity and campaign projects through final delivery.",
+          "Built consistent brand systems for digital and print."
+        ]
+      },
+      {
+        "title": "Graphic Designer",
+        "organization": "Form Creative",
+        "dates": "2019 - 2022",
+        "bullets": [
+          "Created editorial layouts and marketing materials.",
+          "Translated creative briefs into refined visual concepts."
+        ]
+      },
+      {
+        "title": "Junior Designer",
+        "organization": "Made Studio",
+        "dates": "2017 - 2019",
+        "bullets": [
+          "Prepared assets for websites and social campaigns.",
+          "Supported research and concept development for studio projects."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Visual Communication",
+        "institution": "Design University",
+        "year": "2017"
+      },
+      {
+        "degree": "Bachelor of Graphic Design",
+        "institution": "School of Art & Design",
+        "year": "2015"
+      },
+      {
+        "degree": "Foundation in Art & Design",
+        "institution": "Creative Academy",
+        "year": "2011"
+      }
+    ],
+    "skills": [
+      "Graphic Design",
+      "Web Design",
+      "Drawing",
+      "Animation",
+      "UI Design"
+    ],
+    "colors": ["#b29b5f", "#eaeaea", "#373737"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "06": {
+    "name": "Piter Matthew",
+    "city": "New York, USA",
+    "phone": "+1 533 600 136 217",
+    "email": "hello@pitermatthew.com",
+    "summary": "Product designer turning complex problems into thoughtful digital experiences through research and collaboration. I am seeking a lead design opportunity where I can build accessible products and support a growing team.",
+    "jobs": [
+      {
+        "title": "Lead Product Designer",
+        "organization": "Studio North",
+        "dates": "2023 - Present",
+        "bullets": [
+          "Built accessible interfaces and reusable design systems.",
+          "Guided designers and engineers from discovery through delivery."
+        ]
+      },
+      {
+        "title": "Senior Product Designer",
+        "organization": "Form & Field",
+        "dates": "2020 - 2023",
+        "bullets": [
+          "Translated research into user journeys and interactive prototypes.",
+          "Refined product flows through usability testing."
+        ]
+      },
+      {
+        "title": "Product Designer",
+        "organization": "Made Studio",
+        "dates": "2018 - 2020",
+        "bullets": [
+          "Created responsive layouts and visual identities.",
+          "Delivered documented design handoffs and presentation materials."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Design",
+        "institution": "Pratt Institute",
+        "year": "2020"
+      },
+      {
+        "degree": "BFA, Design",
+        "institution": "Parsons School of Design",
+        "year": "2018"
+      }
+    ],
+    "skills": [
+      "Product design",
+      "User research",
+      "Prototyping",
+      "Design systems",
+      "Team leadership"
+    ],
+    "colors": ["#e8c855", "#f7f6f5", "#1d1d1c"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "07": {
+    "name": "Trần Minh Hiếu",
+    "city": "Ho Chi Minh City, Vietnam",
+    "phone": "0998 777 888",
+    "email": "hieutran@gmail.com",
+    "summary": "Creative graphic designer experienced in marketing materials, brand identity, and digital content. I am seeking a graphic design or UX/UI role where I can turn ideas into clear, engaging visual experiences.",
+    "jobs": [
+      {
+        "title": "Graphic Design Intern",
+        "organization": "ABS Design Co., Ltd.",
+        "dates": "Aug 2023 - Jan 2024",
+        "bullets": [
+          "Developed creative concepts and marketing materials.",
+          "Prepared design assets and incorporated feedback for major projects."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "English qualification (confirm exact degree)",
+        "institution": "HCMC Foreign Languages University",
+        "year": "2022"
+      },
+      {
+        "degree": "Design qualification (confirm exact degree)",
+        "institution": "HCMC University of Fine Arts",
+        "year": "2019"
+      }
+    ],
+    "skills": [
+      "Graphic design",
+      "UX/UI design",
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "After Effects"
+    ],
+    "colors": ["#bd1830", "#f5f5f5", "#292929"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "08": {
+    "name": "Vivek Tyagi",
+    "city": "Delhi, India",
+    "phone": "+91 91197 31325",
+    "email": "VivekTyagi5559@gmail.com",
+    "summary": "Graphic designer creating engaging visuals through video editing, motion design, and digital illustration. I am seeking a creative role where I can combine design craft with thoughtful use of modern tools.",
+    "jobs": [
+      {
+        "title": "Graphic Designer / Video Editor",
+        "organization": "Organization / client (replace)",
+        "dates": "Dates (replace)",
+        "bullets": [
+          "Replace with a specific design project you completed and the result.",
+          "Replace with a video or motion project you delivered and its impact."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diploma in Motion Graphic",
+        "institution": "Yads Design School Delhi",
+        "year": "2025"
+      },
+      {
+        "degree": "Senior Secondary (12th)",
+        "institution": "Omanand Inter College, Muzaffarnagar",
+        "year": "2024"
+      }
+    ],
+    "skills": [
+      "Thumbnail design",
+      "Branding",
+      "Video editing",
+      "Motion graphics",
+      "Photoshop"
+    ],
+    "colors": ["#8aff00", "#f8f8f8", "#191919"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "09": {
+    "name": "Jaime Anderson",
+    "city": "City, Country (replace)",
+    "phone": "+123-456-7890",
+    "email": "hello@reallygreatsite.com",
+    "summary": "Graphic designer experienced in visual identities, editorial content, and digital campaigns. I am seeking a senior creative role where I can lead thoughtful design work and collaborate with a multidisciplinary team.",
+    "jobs": [
+      {
+        "title": "Senior Graphic Designer",
+        "organization": "Really Great Site Studio",
+        "dates": "May 2020 - Present",
+        "bullets": [
+          "Led graphic design projects from concept to production.",
+          "Delivered editorial images for clients, magazines, and social media."
+        ]
+      },
+      {
+        "title": "Junior Graphic Designer",
+        "organization": "Really Great Site Studio",
+        "dates": "May 2018 - May 2020",
+        "bullets": [
+          "Created graphics for print layouts and digital campaigns.",
+          "Edited visual assets for publications and client communications."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Design",
+        "institution": "Really Great Site Institute",
+        "year": "2018"
+      },
+      {
+        "degree": "Bachelor of Design",
+        "institution": "Really Great Site University",
+        "year": "2016"
+      }
+    ],
+    "skills": [
+      "Graphic design",
+      "Content planning",
+      "Video editing",
+      "Motion graphics",
+      "Design thinking"
+    ],
+    "colors": ["#b2d8c6", "#f1ecdd", "#292b27"],
+    "optionalSections": [],
+    "direction": "ltr",
+    "language": "en"
+  },
+  "schemaVersion": 2,
+  "sectionDefinitions": {
+    "custom": {
+      "title": "Custom",
+      "description": "A reusable section with your own title and entries.",
+      "maxItems": 60,
+      "fields": {
+        "title": {
+          "label": "Entry title",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for entry title?"
+        },
+        "body": {
+          "label": "Description",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for description?"
+        }
+      },
+      "sample": [
+        {
+          "title": "Community lab",
+          "body": "Hosted monthly sessions where local makers exchanged practical ideas."
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "description": "Languages and readable proficiency levels.",
+      "maxItems": 60,
+      "fields": {
+        "language": {
+          "label": "Language",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for language?"
+        },
+        "level": {
+          "label": "Proficiency",
+          "type": "text",
+          "role": "level",
+          "maxLength": 80,
+          "required": true,
+          "question": "What should I enter for proficiency?"
+        }
+      },
+      "sample": [
+        {
+          "language": "English",
+          "level": "Proficient"
+        },
+        {
+          "language": "Dari",
+          "level": "Native"
+        }
+      ]
+    },
+    "training": {
+      "title": "Training / Courses",
+      "description": "Focused learning and professional development.",
+      "maxItems": 60,
+      "fields": {
+        "course": {
+          "label": "Course title",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for course title?"
+        },
+        "provider": {
+          "label": "Provider",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for provider?"
+        },
+        "date": {
+          "label": "Completion date",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for completion date?"
+        },
+        "description": {
+          "label": "What you learned",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for what you learned?"
+        }
+      },
+      "sample": [
+        {
+          "course": "Facilitating useful workshops",
+          "provider": "Open Practice Studio",
+          "date": "2025",
+          "description": "Practised inclusive exercises for small project teams."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Selected work, your contribution, and its outcome.",
+      "maxItems": 60,
+      "fields": {
+        "name": {
+          "label": "Project name",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for project name?"
+        },
+        "role": {
+          "label": "Your role",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for your role?"
+        },
+        "dates": {
+          "label": "Dates",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for dates?"
+        },
+        "description": {
+          "label": "Contribution and outcome",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for contribution and outcome?"
+        },
+        "url": {
+          "label": "Project URL",
+          "type": "url",
+          "role": "copy",
+          "maxLength": 500,
+          "required": false,
+          "question": "What should I enter for project url?"
+        }
+      },
+      "sample": [
+        {
+          "name": "Neighbourhood lending library",
+          "role": "Volunteer product designer",
+          "dates": "2025",
+          "description": "Designed a simple borrowing flow and tested it with local residents.",
+          "url": "https://example.com/lending-library"
+        }
+      ]
+    },
+    "strengths": {
+      "title": "Strengths",
+      "description": "Strengths supported by concrete examples.",
+      "maxItems": 60,
+      "fields": {
+        "strength": {
+          "label": "Strength",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for strength?"
+        },
+        "example": {
+          "label": "Supporting example",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for supporting example?"
+        }
+      },
+      "sample": [
+        {
+          "strength": "Making ambiguity manageable",
+          "example": "Turn early ideas into a shared problem statement and a practical next step."
+        }
+      ]
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "description": "Community roles and contributions.",
+      "maxItems": 60,
+      "fields": {
+        "role": {
+          "label": "Volunteer role",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for volunteer role?"
+        },
+        "organization": {
+          "label": "Organization",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for organization?"
+        },
+        "dates": {
+          "label": "Dates",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for dates?"
+        },
+        "description": {
+          "label": "Contribution",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for contribution?"
+        }
+      },
+      "sample": [
+        {
+          "role": "Workshop mentor",
+          "organization": "Neighbourhood Skills Circle",
+          "dates": "2024–2025",
+          "description": "Helped first-time participants practise presenting their work."
+        }
+      ]
+    },
+    "industryExpertise": {
+      "title": "Industry Expertise",
+      "description": "Sectors you know and how you apply that knowledge.",
+      "maxItems": 60,
+      "fields": {
+        "industry": {
+          "label": "Industry",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for industry?"
+        },
+        "experience": {
+          "label": "Relevant expertise",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for relevant expertise?"
+        }
+      },
+      "sample": [
+        {
+          "industry": "Community services",
+          "experience": "Translate feedback from service teams into clear, accessible customer journeys."
+        }
+      ]
+    },
+    "interests": {
+      "title": "Interests",
+      "description": "Personal pursuits that add context to your CV.",
+      "maxItems": 60,
+      "fields": {
+        "interest": {
+          "label": "Interest",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for interest?"
+        },
+        "description": {
+          "label": "Why it matters",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for why it matters?"
+        }
+      },
+      "sample": [
+        {
+          "interest": "Urban sketching",
+          "description": "Keep a weekly sketchbook of everyday public spaces."
+        }
+      ]
+    },
+    "myTime": {
+      "title": "My Time",
+      "description": "A text-readable breakdown of your time.",
+      "maxItems": 60,
+      "fields": {
+        "activity": {
+          "label": "Activity",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for activity?"
+        },
+        "percent": {
+          "label": "Percentage",
+          "type": "number",
+          "role": "level",
+          "maxLength": 3,
+          "required": true,
+          "question": "What should I enter for percentage?",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "sample": [
+        {
+          "activity": "Design",
+          "percent": 40
+        },
+        {
+          "activity": "Research",
+          "percent": 35
+        },
+        {
+          "activity": "Collaboration",
+          "percent": 25
+        }
+      ]
+    },
+    "online": {
+      "title": "Find Me Online",
+      "description": "Professional links and public profiles.",
+      "maxItems": 60,
+      "fields": {
+        "label": {
+          "label": "Profile or website name",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for profile or website name?"
+        },
+        "url": {
+          "label": "Profile URL",
+          "type": "url",
+          "role": "copy",
+          "maxLength": 500,
+          "required": false,
+          "question": "What should I enter for profile url?"
+        },
+        "description": {
+          "label": "What visitors will find",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for what visitors will find?"
+        }
+      },
+      "sample": [
+        {
+          "label": "Notes on useful design",
+          "url": "https://example.com/design-notes",
+          "description": "Short articles about working through everyday design problems."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Certifications",
+      "description": "Credentials, issuers, and dates.",
+      "maxItems": 60,
+      "fields": {
+        "credential": {
+          "label": "Credential",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for credential?"
+        },
+        "issuer": {
+          "label": "Issuing organization",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for issuing organization?"
+        },
+        "date": {
+          "label": "Issued / expires",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for issued / expires?"
+        },
+        "credentialId": {
+          "label": "Credential ID",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for credential id?"
+        },
+        "url": {
+          "label": "Verification URL",
+          "type": "url",
+          "role": "copy",
+          "maxLength": 500,
+          "required": false,
+          "question": "What should I enter for verification url?"
+        }
+      },
+      "sample": [
+        {
+          "credential": "Accessible Content Practitioner",
+          "issuer": "Inclusive Practice Institute",
+          "date": "Issued 2025",
+          "credentialId": "DEMO-AC-025",
+          "url": "https://example.com/credentials/demo"
+        }
+      ]
+    },
+    "awards": {
+      "title": "Awards",
+      "description": "Recognition and the contribution behind it.",
+      "maxItems": 60,
+      "fields": {
+        "award": {
+          "label": "Award",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for award?"
+        },
+        "organization": {
+          "label": "Awarding organization",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for awarding organization?"
+        },
+        "date": {
+          "label": "Year",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for year?"
+        },
+        "description": {
+          "label": "Reason for recognition",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for reason for recognition?"
+        }
+      },
+      "sample": [
+        {
+          "award": "Community Collaboration Recognition",
+          "organization": "Local Makers Network",
+          "date": "2025",
+          "description": "Recognised for organizing an open showcase for new makers."
+        }
+      ]
+    },
+    "references": {
+      "title": "References",
+      "description": "Referees and their professional contact details.",
+      "maxItems": 60,
+      "fields": {
+        "name": {
+          "label": "Referee name",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for referee name?"
+        },
+        "role": {
+          "label": "Role and organization",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for role and organization?"
+        },
+        "relationship": {
+          "label": "Professional relationship",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for professional relationship?"
+        },
+        "email": {
+          "label": "Email",
+          "type": "text",
+          "role": "copy",
+          "maxLength": 254,
+          "required": false,
+          "question": "What should I enter for email?"
+        },
+        "phone": {
+          "label": "Phone",
+          "type": "text",
+          "role": "copy",
+          "maxLength": 80,
+          "required": false,
+          "question": "What should I enter for phone?"
+        }
+      },
+      "sample": [
+        {
+          "name": "Rowan Ellis",
+          "role": "Programme Lead, Open Practice Studio",
+          "relationship": "Former project supervisor",
+          "email": "rowan.ellis@example.com",
+          "phone": "+44 20 7946 0154"
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "My Life Philosophy",
+      "description": "A personal principle and how you put it into practice.",
+      "maxItems": 60,
+      "fields": {
+        "principle": {
+          "label": "Personal principle",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for personal principle?"
+        },
+        "explanation": {
+          "label": "How you apply it",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for how you apply it?"
+        }
+      },
+      "sample": [
+        {
+          "principle": "Leave the next step clearer than you found it.",
+          "explanation": "I document decisions so the next person can move forward with confidence."
+        }
+      ]
+    },
+    "publications": {
+      "title": "Publications",
+      "description": "Articles, papers, and published contributions.",
+      "maxItems": 60,
+      "fields": {
+        "title": {
+          "label": "Publication title",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for publication title?"
+        },
+        "publisher": {
+          "label": "Publisher / venue",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for publisher / venue?"
+        },
+        "date": {
+          "label": "Publication date",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for publication date?"
+        },
+        "description": {
+          "label": "Summary",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for summary?"
+        },
+        "url": {
+          "label": "Publication URL",
+          "type": "url",
+          "role": "copy",
+          "maxLength": 500,
+          "required": false,
+          "question": "What should I enter for publication url?"
+        }
+      },
+      "sample": [
+        {
+          "title": "A small guide to better project handovers",
+          "publisher": "Practical Work Journal",
+          "date": "2025",
+          "description": "An original essay about shared context and lightweight documentation.",
+          "url": "https://example.com/handovers"
+        }
+      ]
+    },
+    "books": {
+      "title": "Books",
+      "description": "Books you wrote or contributed to, with optional covers.",
+      "maxItems": 60,
+      "fields": {
+        "title": {
+          "label": "Book title",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for book title?"
+        },
+        "contribution": {
+          "label": "Your contribution",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for your contribution?"
+        },
+        "publisher": {
+          "label": "Publisher",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for publisher?"
+        },
+        "date": {
+          "label": "Publication year",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for publication year?"
+        },
+        "description": {
+          "label": "Book summary",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for book summary?"
+        },
+        "url": {
+          "label": "Book URL",
+          "type": "url",
+          "role": "copy",
+          "maxLength": 500,
+          "required": false,
+          "question": "What should I enter for book url?"
+        },
+        "cover": {
+          "label": "Optional cover image",
+          "type": "image",
+          "role": "image",
+          "maxLength": 2800000,
+          "required": false,
+          "question": "What should I enter for optional cover image?",
+          "maxBytes": 2000000,
+          "accept": ["image/png", "image/jpeg", "image/webp"]
+        }
+      },
+      "sample": [
+        {
+          "title": "Small Systems, Better Days",
+          "contribution": "Author",
+          "publisher": "Independent publication",
+          "date": "2025",
+          "description": "A collection of practical exercises for making everyday teamwork clearer.",
+          "url": "https://example.com/small-systems"
+        }
+      ]
+    },
+    "additionalExperience": {
+      "title": "Additional Experience",
+      "description": "Other roles, contracts, or relevant work.",
+      "maxItems": 60,
+      "fields": {
+        "role": {
+          "label": "Job title",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for job title?"
+        },
+        "organization": {
+          "label": "Organization",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for organization?"
+        },
+        "dates": {
+          "label": "Dates",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for dates?"
+        },
+        "achievements": {
+          "label": "Achievements",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for achievements?"
+        }
+      },
+      "sample": [
+        {
+          "role": "Freelance workshop coordinator",
+          "organization": "Independent practice",
+          "dates": "2023–2024",
+          "achievements": "Planned a series of small learning events and prepared facilitator guides."
+        }
+      ]
+    },
+    "additionalSkills": {
+      "title": "Additional Skills",
+      "description": "Supporting skills with readable level descriptions.",
+      "maxItems": 60,
+      "fields": {
+        "skill": {
+          "label": "Skill",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for skill?"
+        },
+        "level": {
+          "label": "Level",
+          "type": "text",
+          "role": "level",
+          "maxLength": 80,
+          "required": false,
+          "question": "What should I enter for level?"
+        },
+        "evidence": {
+          "label": "Supporting evidence",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for supporting evidence?"
+        }
+      },
+      "sample": [
+        {
+          "skill": "Spreadsheet modelling",
+          "level": "Advanced",
+          "evidence": "Build clear planning models with documented assumptions."
+        }
+      ]
+    },
+    "additionalPublications": {
+      "title": "Additional Publications",
+      "description": "More published work and contributions.",
+      "maxItems": 60,
+      "fields": {
+        "title": {
+          "label": "Publication title",
+          "type": "text",
+          "role": "title",
+          "maxLength": 160,
+          "required": true,
+          "question": "What should I enter for publication title?"
+        },
+        "publisher": {
+          "label": "Publisher / venue",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for publisher / venue?"
+        },
+        "date": {
+          "label": "Publication date",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for publication date?"
+        },
+        "description": {
+          "label": "Summary",
+          "type": "multiline",
+          "role": "copy",
+          "maxLength": 1200,
+          "required": false,
+          "question": "What should I enter for summary?"
+        },
+        "url": {
+          "label": "Publication URL",
+          "type": "url",
+          "role": "copy",
+          "maxLength": 500,
+          "required": false,
+          "question": "What should I enter for publication url?"
+        }
+      },
+      "sample": [
+        {
+          "title": "Listening before making",
+          "publisher": "Everyday Practice Review",
+          "date": "2024",
+          "description": "Reflections on research conversations with community partners.",
+          "url": "https://example.com/listening"
+        }
+      ]
+    },
+    "signature": {
+      "title": "Signature",
+      "description": "Upload your signature as a PNG, JPEG, or WebP image.",
+      "maxItems": 10,
+      "fields": {
+        "image": {
+          "label": "Signature image",
+          "type": "image",
+          "role": "image",
+          "maxLength": 2800000,
+          "required": true,
+          "question": "What should I enter for signature image?",
+          "maxBytes": 2000000,
+          "accept": ["image/png", "image/jpeg", "image/webp"]
+        },
+        "name": {
+          "label": "Printed name",
+          "type": "text",
+          "role": "copy",
+          "maxLength": 160,
+          "required": false,
+          "question": "What should I enter for printed name?"
+        },
+        "date": {
+          "label": "Date",
+          "type": "text",
+          "role": "meta",
+          "maxLength": 180,
+          "required": false,
+          "question": "What should I enter for date?"
+        }
+      },
+      "sample": [
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAABACAYAAAAkn/rnAAADIUlEQVR4nO3aS27bQBCEYd8lu+x8/8Mp8EKAoEjWTLFnqpr8F9/GDszqB6mhkK/b7fYFoCd7AAA6ewAAOnsAADp7AAA6ewAAOnsAADp7AAA6ewAAOnsAADp7AAA6ewAAOnsAADp7AAA6ewAAOnsAADp7AAA6e4Bnf/5+3364c+Ca7vvXZQ/tATo3r6pWdxb8P5Mus4luXocGXmVRuuSsnkt6zbEL0qF5lUuSXGuXnBU1vvq5O9tv4puX3sCKWpPr7PawOVLn6LySRDevQwNn6+y2KO9ORolZV8zl/nt3xndaNC+5gbO1Hvl9ymzOdhOPzCW1VnuAkcYkN3Cmzm6LcoUH62gdqbW2aF5yA89aZ+UDJ/n9eWYuadl/tGhecgOrs6fUWLHY6d+4z2ZJyf3I3sCVDU+gZHbXOPvAUbjnovQ5Kftdm+alNXBkIdW87hrVxR69WRPm2HU2z9osyUjjdz3lV3/auBf8SObRut03wpH9c+Z+ZmvekUY4j2q7joquRdl1XedDqutsXrFc9GgDXO9bI8fCquue/QZ21dh5Nq9YLlrRgJl3raqG7/7UcC34zmutesCu3Af3K86j7RfcXXhVsx1DO/v1qq7pOJGl3MTbL8ixKXdJutbofJ1y97TdsI5c+2q5r1DjzPcSu3q2+uHxqKSA0XDOI8eRJnbJ3bnG3TOtns/uE8BdefD0ZnddEmUeq3vDbMb+E8vKm3hp8KRGqznSc1c88VNqXD3L1fMZ/RCrzF3WcMfxYfWipOX+1PPZhUqqcTZHQuYddX6yLGDizTvbwMTcM/3t8moz2++kzEdmWfG3lodMbPTMO6U767uejub77d+m1djxwbq61k/shbiaN3K0TM6uvAokn4xG+56au7rOUfZCEht4liV5VVPnGzg1s5M9gMund8cz15x8I4y807szJrEHcOrwXnhFv33j7s6Wxh7Aqcux8mqYyzh7ADcWJRNzGWMP4MaS5GIun9kDANDZAwDQ2QMA0NkDANDZAwDQ2QMA0NkDANDZAwDQ2QMA0NkDANDZAwDQ2QMA0NkDANDZAwDQ2QMAuMn+AUBTqcIgaTlZAAAAAElFTkSuQmCC",
+          "name": "Demonstration signature",
+          "date": "2026"
+        }
+      ]
+    }
+  },
+  "editing": {
+    "fieldLimits": {
+      "name": 120,
+      "role": 160,
+      "phone": 60,
+      "email": 254,
+      "city": 160,
+      "portfolio": 500,
+      "summary": 2400,
+      "title": 160,
+      "organization": 180,
+      "dates": 60,
+      "degree": 180,
+      "institution": 180,
+      "year": 30,
+      "bullet": 600,
+      "templateText": 1000
+    },
+    "historyLimit": 100
+  }
+}

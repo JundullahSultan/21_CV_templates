@@ -1,0 +1,176 @@
+/* Builder-only. Never linked by the static generator or PDF document. */
+.click-editor.editor {
+  display: block;
+}
+.click-editor .preview-panel {
+  padding: 28px 0;
+  overflow: hidden;
+  display: block !important;
+  min-height: 80vh;
+}
+.edit-stage {
+  width: 86vw;
+  margin-inline: auto;
+  position: relative;
+  direction: ltr;
+}
+.edit-canvas {
+  width: 210mm;
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  transform: scale(var(--edit-scale));
+  transform-origin: 0 0;
+}
+.click-editor .preview-panel .cv-render {
+  zoom: 1;
+  margin: 0;
+}
+.edit-stage [data-field] {
+  cursor: text;
+  white-space: pre-wrap;
+  pointer-events: auto !important;
+}
+.edit-stage[data-edit-enabled="false"] [data-field] {
+  cursor: default;
+}
+.edit-stage [data-field]:focus-visible {
+  outline: 2px solid #347d68;
+  outline-offset: 3px;
+}
+.edit-stage[data-edit-enabled="true"] [data-field]:hover {
+  outline: 1px dashed #347d68;
+  outline-offset: 2px;
+}
+.edit-stage [data-edit-active] {
+  outline: 2px solid #347d68 !important;
+  outline-offset: 3px;
+  min-inline-size: 1em;
+  caret-color: auto;
+}
+.edit-stage [data-field]:empty::after {
+  content: "\00a0";
+}
+.chat-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 69;
+  border: 0;
+  border-radius: 0;
+  background: #102c2666;
+}
+.click-editor .chat-panel {
+  position: fixed;
+  z-index: 70;
+  inset-block: 0;
+  inset-inline-start: 0;
+  inline-size: min(460px, 92vw);
+  overflow-y: auto;
+  min-height: 100vh;
+  box-shadow: 6px 0 30px #0002;
+}
+.click-editor .chat-panel[hidden] {
+  display: none;
+}
+.field-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 110;
+  background: #102c2677;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+.field-dialog {
+  background: #fff;
+  color: #183e34;
+  inline-size: min(540px, 100%);
+  padding: 24px;
+  border-radius: 18px;
+  max-block-size: 90dvh;
+  overflow: auto;
+  box-shadow: 0 20px 70px #0003;
+}
+.field-dialog h2 {
+  font-size: 21px;
+  margin-block-start: 0;
+}
+.field-dialog label {
+  display: block;
+  font-size: 14px;
+  margin-block: 8px;
+}
+.field-dialog textarea {
+  font-size: 18px;
+  line-height: 1.6;
+  min-block-size: 140px;
+  margin-block: 12px;
+}
+.field-dialog small {
+  font-size: 12px;
+}
+.field-dialog button,
+.field-dialog select,
+.field-dialog input {
+  min-block-size: 44px;
+  font-size: 16px;
+}
+.field-dialog input[type="checkbox"] {
+  min-block-size: auto;
+  inline-size: 20px;
+  block-size: 20px;
+}
+.field-actions {
+  display: flex;
+  justify-content: end;
+  gap: 12px;
+  margin-block-start: 20px;
+}
+.bottom-sheet-backdrop {
+  align-items: end;
+  padding: 0;
+}
+.field-bottom-sheet {
+  inline-size: 100%;
+  max-inline-size: 760px;
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
+  padding-block-end: max(24px, env(safe-area-inset-bottom));
+}
+.date-dialog fieldset {
+  display: flex;
+  gap: 12px;
+  border: 1px solid #d5dfd9;
+  border-radius: 10px;
+  margin-block: 14px;
+}
+.date-dialog label {
+  flex: 1;
+}
+.date-dialog select {
+  display: block;
+  inline-size: 100%;
+  margin-block-start: 8px;
+}
+@media (pointer: coarse), (max-width: 999px) {
+  .editor-toolbar button {
+    min-block-size: 44px;
+  }
+}
+@media print {
+  .edit-stage {
+    height: auto !important;
+    width: 210mm !important;
+  }
+  .edit-canvas {
+    position: static !important;
+    transform: none !important;
+  }
+  .field-modal-backdrop,
+  .chat-scrim {
+    display: none !important;
+  }
+  .edit-stage [data-field] {
+    outline: none !important;
+  }
+}

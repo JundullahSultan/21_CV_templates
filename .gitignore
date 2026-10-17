@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test-results/
+tmp/
+public/templates/
+public/thumbnails/
+public/manifest.json
+public/sections.json
+public/editing.json

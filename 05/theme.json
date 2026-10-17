@@ -1,0 +1,13 @@
+{
+  "accent": "#b29b5f",
+  "paper": "#eaeaea",
+  "ink": "#373737",
+  "font": "Roboto, Arial, sans-serif",
+  "headingFont": "Roboto, Arial, sans-serif",
+  "headingWeight": "400",
+  "headingTransform": "none",
+  "headingSpacing": "normal",
+  "spacing": 22,
+  "headingStyle": "marker",
+  "radius": 0
+}

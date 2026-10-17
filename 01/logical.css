@@ -1,0 +1,116 @@
+html[dir="rtl"] .original-layout{transform-origin:100% 0!important;}
+
+html[dir="rtl"] body{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:24px!important;padding-inline-start:24px!important;}
+html[dir="rtl"] .resume{margin-inline-end:auto!important;margin-inline-start:auto!important;padding-inline-end:54px!important;padding-inline-start:54px!important;}
+
+html[dir="rtl"] .accent-band{left:auto!important;right:auto!important;inset-inline-start:-32px!important;inset-inline-end:0px!important;}
+html[dir="rtl"] .resume-label{left:auto!important;right:auto!important;inset-inline-start:3px!important;border-inline-start-width:!important;border-inline-start-style:!important;border-inline-start-color:!important;padding-inline-start:17px!important;}
+html[dir="rtl"] .portrait{left:auto!important;right:auto!important;inset-inline-start:81px!important;}
+
+html[dir="rtl"] .identity{left:auto!important;right:auto!important;inset-inline-start:235px!important;inset-inline-end:-9px!important;}
+html[dir="rtl"] h1{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .profession{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .contact{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .contact li + li::before{margin-inline-end:12px!important;margin-inline-start:12px!important;}
+
+
+
+html[dir="rtl"] .objective{margin-inline-end:0px!important;margin-inline-start:4px!important;border-inline-start-width:!important;border-inline-start-style:!important;border-inline-start-color:!important;padding-inline-end:0px!important;padding-inline-start:10px!important;}
+
+html[dir="rtl"] h2{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] h3{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] h4{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] p{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] ul{padding-inline-start:17px!important;}
+html[dir="rtl"] .skills ul{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-start:17px!important;}
+html[dir="rtl"] .skills li{padding-inline-start:8px!important;}
+
+html[dir="rtl"] .timeline{border-inline-start-width:!important;border-inline-start-style:!important;border-inline-start-color:!important;margin-inline-end:0px!important;margin-inline-start:3px!important;}
+html[dir="rtl"] .timeline article{padding-inline-end:0px!important;padding-inline-start:21px!important;}
+
+html[dir="rtl"] .timeline article::before{left:auto!important;right:auto!important;inset-inline-start:-4.75px!important;}
+html[dir="rtl"] .timeline h4{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+
+
+
+html[dir="rtl"] .experience ul{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-start:26px!important;}
+@media (max-width: 840px) and (min-width: 601px){html[dir="rtl"] body{padding-inline-end:12px!important;padding-inline-start:12px!important;}
+}
+@media (max-width: 600px){html[dir="rtl"] body{padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .resume{padding-inline-end:25px!important;padding-inline-start:25px!important;}
+
+html[dir="rtl"] .portrait{left:auto!important;right:auto!important;inset-inline-start:35px!important;}
+html[dir="rtl"] .resume-label{left:auto!important;right:auto!important;inset-inline-start:0px!important;padding-inline-start:8px!important;}
+html[dir="rtl"] .accent-band{left:auto!important;right:auto!important;inset-inline-start:-25px!important;inset-inline-end:-25px!important;}
+html[dir="rtl"] .identity{left:auto!important;right:auto!important;inset-inline-start:0px!important;inset-inline-end:0px!important;}
+html[dir="rtl"] h1{margin-inline-start:143px!important;}
+
+
+
+
+html[dir="rtl"] .objective{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+
+
+}
+
+@media print{html[dir="rtl"] body{padding-inline-end:0px!important;padding-inline-start:0px!important;}
+
+
+}
+
+html[dir="rtl"] body{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+
+html[dir="rtl"] .a4-page{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .original-layout .cv-job-title{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout .cv-job-meta{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout .cv-job-bullets{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-start:15px!important;}
+html[dir="rtl"] .original-layout .cv-job-bullets li{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+html[dir="rtl"] .original-layout .cv-degree h3{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout .cv-degree p{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .original-layout .cv-contact-completion{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout .cv-next{padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .cv-more{padding-inline-end:17mm!important;padding-inline-start:17mm!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .cv-more .cv-running-head{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .cv-more .cv-section{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;border-inline-end-width:0px!important;border-inline-start-width:0px!important;border-inline-end-style:none!important;border-inline-start-style:none!important;border-inline-end-color:currentcolor!important;border-inline-start-color:currentcolor!important;}
+html[dir="rtl"] .cv-more .cv-section > h2{border-inline-end-width:0px!important;border-inline-end-style:none!important;border-inline-end-color:currentcolor!important;border-inline-start-width:!important;border-inline-start-style:!important;border-inline-start-color:!important;padding-inline-end:0px!important;padding-inline-start:11px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .cv-more .cv-section > p{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-contact-grid{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-contact-grid > *{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-job,html[dir="rtl"] .cv-more .cv-degree{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;border-inline-end-width:0px!important;border-inline-start-width:0px!important;border-inline-end-style:none!important;border-inline-start-style:none!important;border-inline-end-color:currentcolor!important;border-inline-start-color:currentcolor!important;}
+html[dir="rtl"] .cv-more .cv-job-title,html[dir="rtl"] .cv-more .cv-degree h3{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-job-meta,html[dir="rtl"] .cv-more .cv-degree p{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-job-bullets{padding-inline-start:18px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-job-bullets li{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-skill-list{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-skill-list li{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:11px!important;padding-inline-start:11px!important;border-inline-end-color:!important;border-inline-end-style:!important;border-inline-end-width:!important;border-inline-start-color:!important;border-inline-start-style:!important;border-inline-start-width:!important;}
+html[dir="rtl"] .cv-page-footer{left:auto!important;right:auto!important;inset-inline-start:17mm!important;inset-inline-end:17mm!important;}
+
+
+@media print{html[dir="rtl"] html,html[dir="rtl"] body{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+
+html[dir="rtl"] .a4-page{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+}
+@media screen and (max-width: 820px){html[dir="rtl"] body{padding-inline-end:0px!important;padding-inline-start:0px!important;}
+
+
+
+html[dir="rtl"] .cv-more{padding-inline-end:25px!important;padding-inline-start:25px!important;}
+
+
+html[dir="rtl"] .cv-page-footer{left:auto!important;right:auto!important;inset-inline-start:25px!important;inset-inline-end:25px!important;}}
+@media screen and (max-width: 700px){html[dir="rtl"] .original-layout[data-template="02"] .education,html[dir="rtl"] .original-layout[data-template="02"] .experience{left:auto!important;right:auto!important;inset-inline-end:auto!important;inset-inline-start:auto!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}}

@@ -1,0 +1,3434 @@
+{
+  "date": "2026-10-15T13:19:52.811Z",
+  "renderer": "src/renderer.jsx",
+  "templates": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21"
+  ],
+  "results": [
+    {
+      "id": "01",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "01",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "01",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "01",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "01",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "01",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "01",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "01",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "02",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "02",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "02",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "02",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "02",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "02",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "02",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "02",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "03",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "03",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "03",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "03",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "03",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "03",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "03",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "03",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "04",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "04",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "04",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "04",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "04",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "04",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "04",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "04",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "05",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "05",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "05",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "05",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "05",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "05",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "05",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "05",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "06",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "06",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "06",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "06",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "06",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "06",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "06",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "06",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "07",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "07",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "07",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "07",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "07",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "07",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "07",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "07",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "08",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "08",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "08",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "training",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "online",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "references",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "books",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "08",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "08",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "08",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 16
+    },
+    {
+      "id": "08",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "08",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "09",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "09",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "09",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "training",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "online",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "references",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "books",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "09",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "09",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "09",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 22
+    },
+    {
+      "id": "09",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "09",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "10",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "10",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "10",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "training",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "online",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "references",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "books",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "10",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "10",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "10",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 16
+    },
+    {
+      "id": "10",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "10",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "11",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "11",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "11",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "training",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "online",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "references",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "books",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "11",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "11",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "11",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 16
+    },
+    {
+      "id": "11",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "11",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "12",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "12",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "12",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "training",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "online",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "references",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "books",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "12",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "12",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "12",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 16
+    },
+    {
+      "id": "12",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "12",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "13",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "13",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "13",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "training",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "online",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "references",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "books",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 4
+    },
+    {
+      "id": "13",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 8
+    },
+    {
+      "id": "13",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "13",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 17
+    },
+    {
+      "id": "13",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 8
+    },
+    {
+      "id": "13",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 8
+    },
+    {
+      "id": "14",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "14",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "14",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "14",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "14",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "14",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "14",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "14",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "15",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "15",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "15",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "15",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "15",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "15",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 21
+    },
+    {
+      "id": "15",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "15",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "16",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "16",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "16",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "16",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "16",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "16",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "16",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "16",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "17",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "17",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "17",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "training",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "online",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "references",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "books",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "17",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "17",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "17",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 16
+    },
+    {
+      "id": "17",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "17",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "18",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "18",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "18",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "18",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "18",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "18",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "18",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "18",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 6
+    },
+    {
+      "id": "19",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "19",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "19",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "19",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "19",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "19",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "19",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "19",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "20",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "20",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "20",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "training",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "online",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "references",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "books",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "id": "20",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "20",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "20",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 16
+    },
+    {
+      "id": "20",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "20",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 7
+    },
+    {
+      "id": "21",
+      "scenario": "baseline",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "21",
+      "scenario": "edited-shared-data",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "21",
+      "scenario": "custom",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "languages",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "training",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "projects",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "strengths",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "volunteering",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "industryExpertise",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "interests",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "myTime",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "online",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "certifications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "awards",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "references",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "philosophy",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "publications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "books",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "additionalExperience",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "additionalSkills",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "additionalPublications",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "signature",
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "id": "21",
+      "scenario": "all-sections",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "21",
+      "scenario": "empty",
+      "passed": true,
+      "pages": 1
+    },
+    {
+      "id": "21",
+      "scenario": "many-items",
+      "passed": true,
+      "pages": 15
+    },
+    {
+      "id": "21",
+      "scenario": "rtl-ps",
+      "passed": true,
+      "pages": 5
+    },
+    {
+      "id": "21",
+      "scenario": "rtl-fa",
+      "passed": true,
+      "pages": 5
+    }
+  ],
+  "failures": [],
+  "passed": 567,
+  "failed": 0
+}

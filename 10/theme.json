@@ -1,0 +1,13 @@
+{
+  "accent": "#ffdb20",
+  "paper": "#f8f5ec",
+  "ink": "#3c3a37",
+  "font": "\"DM Sans\", Arial, sans-serif",
+  "headingFont": "\"Archivo Black\", \"Arial Black\", sans-serif",
+  "headingWeight": "400",
+  "headingTransform": "uppercase",
+  "headingSpacing": "0.3px",
+  "spacing": 22,
+  "headingStyle": "label",
+  "radius": 14
+}

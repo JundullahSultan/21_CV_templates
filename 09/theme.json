@@ -1,0 +1,13 @@
+{
+  "accent": "#b2d8c6",
+  "paper": "#f1ecdd",
+  "ink": "#292b27",
+  "font": "\"Share Tech Mono\", \"Courier New\", monospace",
+  "headingFont": "VT323, monospace",
+  "headingWeight": "400",
+  "headingTransform": "uppercase",
+  "headingSpacing": "1px",
+  "spacing": 22,
+  "headingStyle": "band",
+  "radius": 14
+}

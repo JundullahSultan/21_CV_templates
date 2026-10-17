@@ -1,0 +1,13 @@
+{
+  "accent": "#b9a2e6",
+  "paper": "#f7f1e5",
+  "ink": "#242136",
+  "font": "Rubik, Arial, sans-serif",
+  "headingFont": "Rubik, Arial, sans-serif",
+  "headingWeight": "700",
+  "headingTransform": "uppercase",
+  "headingSpacing": "0.8px",
+  "spacing": 22,
+  "headingStyle": "label",
+  "radius": 14
+}

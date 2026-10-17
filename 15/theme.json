@@ -1,0 +1,13 @@
+{
+  "accent": "#b7f36b",
+  "paper": "#101b19",
+  "ink": "#dce7df",
+  "font": "\"Courier New\", monospace",
+  "headingFont": "\"Courier New\", monospace",
+  "headingWeight": "700",
+  "headingTransform": "uppercase",
+  "headingSpacing": "1px",
+  "spacing": 22,
+  "headingStyle": "marker",
+  "radius": 0
+}

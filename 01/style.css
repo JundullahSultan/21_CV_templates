@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root { --ink: #181818; --paper: #f5f4f3; --accent: #c8f000; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 64px 24px; background: #b6b6b4; color: var(--ink); font-family: 'Montserrat', Arial, sans-serif; font-size: 12px; line-height: 1.5; }
+.resume { width: 794px; min-height: 1123px; margin: auto; padding: 0 54px 64px; background: var(--paper); box-shadow: 0 24px 65px #0002; }
+.header { position: relative; height: 332px; }
+.accent-band { position: absolute; top: 191px; left: -32px; right: 0; height: 50px; background: var(--accent); }
+.resume-label { position: absolute; top: 72px; left: 3px; height: 250px; border-left: 1.5px solid var(--ink); padding-left: 17px; writing-mode: vertical-rl; transform: rotate(180deg); text-align: center; text-transform: uppercase; font: 500 42px/.95 'Barlow Condensed', 'Arial Narrow', sans-serif; }
+.portrait { position: absolute; left: 81px; top: 0; width: 127px; height: 301px; overflow: hidden; background: #e4e3e3; }
+.portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 49% center; filter: grayscale(1); mix-blend-mode: multiply; }
+.identity { position: absolute; top: 119px; left: 235px; right: -9px; }
+h1 { margin: 0; font-size: 43px; line-height: 1.25; font-weight: 400; letter-spacing: -2.3px; white-space: nowrap; }
+h1 strong { font-weight: 600; }
+.profession { position: relative; margin: 32px 0 31px; font-size: 14px; letter-spacing: 7px; text-transform: uppercase; }
+.contact { display: flex; align-items: center; list-style: none; margin: 0; padding: 0; font-size: 10px; letter-spacing: .2px; white-space: nowrap; }
+.contact li + li::before { content: '|'; margin: 0 12px; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.objective { margin: 0 0 58px 4px; border-left: 10px solid var(--accent); padding: 5px 0 5px 10px; font-size: 11.5px; line-height: 1.6; }
+.columns { display: grid; grid-template-columns: 194px 1fr; gap: 41px; }
+h2 { margin: 0 0 20px; font-size: 18px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; }
+h3 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 4px; margin: 0 0 12px; }
+h4 { margin: 3px 0 10px; font-size: 11px; font-weight: 600; letter-spacing: 1.5px; line-height: 1.6; text-transform: uppercase; }
+p { margin: 0; }
+ul { padding-left: 17px; }
+.skills ul { margin: 0; padding-left: 17px; }
+.skills li { padding-left: 8px; margin-bottom: 9px; }
+.education { margin-top: 43px; }
+.timeline { border-left: 1.5px solid var(--ink); margin: 6px 0 0 3px; }
+.timeline article { position: relative; padding: 0 0 34px 21px; }
+.timeline article:last-child { padding-bottom: 0; }
+.timeline article::before { content: ''; position: absolute; width: 8px; height: 8px; border-radius: 50%; background: var(--ink); left: -4.75px; top: 4px; }
+.timeline h4 { margin: 2px 0; letter-spacing: 1px; }
+.timeline article > p:last-child { font-size: 11px; letter-spacing: .5px; }
+.date { font-size: 10.5px; font-weight: 500; letter-spacing: 1.6px; }
+.experience article { margin-bottom: 37px; }
+.experience article:last-child { margin-bottom: 0; }
+.experience article > p:not(.date), .experience li { font-size: 11px; line-height: 1.5; }
+.experience ul { margin: 4px 0 0; padding-left: 26px; }
+
+@media (max-width: 840px) and (min-width: 601px) {
+  body { padding: 25px 12px; }
+  .resume { zoom: .8; }
+}
+@media (max-width: 600px) {
+  body { padding: 0; }
+  .resume { width: 100%; min-height: 100vh; padding: 0 25px 40px; }
+  .header { height: 305px; }
+  .portrait { left: 35px; width: 95px; height: 190px; }
+  .resume-label { left: 0; top: 24px; height: 166px; font-size: 30px; padding-left: 8px; }
+  .accent-band { top: 203px; left: -25px; right: -25px; height: 38px; }
+  .identity { top: 135px; left: 0; right: 0; }
+  h1 { margin-left: 143px; font-size: clamp(19px, 5vw, 30px); letter-spacing: -1px; white-space: normal; line-height: 1.1; }
+  h1 strong { display: block; }
+  .profession { margin-top: 25px; margin-bottom: 27px; letter-spacing: 5px; font-size: 12px; }
+  .contact { flex-wrap: wrap; gap: 7px 12px; font-size: 9px; }
+  .contact li + li::before { display: none; }
+  .objective { margin: 0 0 35px; }
+  .columns { grid-template-columns: 1fr; gap: 35px; }
+  aside { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  h2 { font-size: 15px; letter-spacing: 2.5px; }
+  h3 { font-size: 10px; letter-spacing: 2px; }
+  .education { margin-top: 0; }
+}
+@page { size: A4; margin: 0; }
+@media print {
+  body { padding: 0; background: white; }
+  .resume { width: 210mm; min-height: 297mm; box-shadow: none; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  article { break-inside: avoid; }
+}

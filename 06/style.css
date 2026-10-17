@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root { --paper: #f7f6f5; --ink: #1d1d1c; --yellow: #e8c855; --orange: #cf5025; }
+* { box-sizing: border-box; }
+html { background: #fff; }
+body { margin: 0; color: var(--ink); font-family: 'Montserrat', Arial, sans-serif; font-size: 10px; line-height: 1.65; }
+.resume { width: 210mm; min-height: 297mm; margin: 0 auto; padding: 0 16mm 19mm 15mm; background: var(--paper); }
+h1, h2, h3, p, ul { margin: 0; }
+a { color: inherit; text-decoration: none; }a:hover { text-decoration: underline; text-underline-offset: 3px; }a:focus-visible { outline: 2px solid var(--orange); outline-offset: 4px; }
+.header { position: relative; height: 460px; }
+.visual-column { position: absolute; left: 27px; top: 0; width: 97px; }
+.yellow-tab { height: 92px; background: var(--yellow); border-radius: 0 0 28px 28px; }
+.portrait { position: relative; height: 221px; margin-top: 29px; background: var(--orange); border-radius: 29px; overflow: hidden; }
+.portrait img { display: block; position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 48% center; filter: grayscale(1); mix-blend-mode: multiply; }
+.yellow-block { height: 94px; margin-top: 28px; background: var(--yellow); border-radius: 28px 28px 0 0; }
+.identity { position: absolute; left: 142px; top: 168px; }
+h1 { font-weight: 400; text-transform: uppercase; line-height: 1.3; }.first-name { display: block; font-size: 30px; letter-spacing: 3.5px; }.last-name { display: block; font-size: 48px; letter-spacing: 18px; margin-right: -18px; }
+.profession { margin-top: 5px; font-size: 10px; letter-spacing: -.15px; }.profession strong { font-weight: 600; }
+.profile { position: absolute; top: 366px; left: 251px; right: 0; border-left: 1px solid #9d9d97; padding: 0 0 0 28px; font-size: 10px; line-height: 1.5; color: #60605b; }
+.columns { display: grid; grid-template-columns: 192px minmax(0, 1fr); gap: 59px; }
+.contact { font-size: 10px; font-style: normal; line-height: 1.8; padding-top: 43px; white-space: nowrap; }.contact a { display: block; }.contact b { font-weight: 600; }
+h2 { text-transform: uppercase; font-size: 16px; font-weight: 600; letter-spacing: 4px; line-height: 1.4; margin-bottom: 17px; }
+h3 { font-size: 10px; text-transform: uppercase; font-weight: 600; letter-spacing: 1.5px; line-height: 1.6; }
+.skills { margin-top: 52px; }.skills h2 { margin-bottom: 15px; }.skills h3 { margin-bottom: 12px; letter-spacing: 1.3px; }.skills ul { padding-left: 15px; color: #55554f; font-size: 11px; }.skills li { padding-left: 6px; margin-bottom: 4px; }
+.education { margin-top: 48px; }.education article + article { margin-top: 24px; }.education .date { font-size: 10px; letter-spacing: .6px; }.education h3 { margin: 3px 0 1px; letter-spacing: .7px; }.education article > p:last-child { font-size: 10px; color: #60605b; }
+.experience h2 { letter-spacing: 7px; margin-bottom: 13px; }.experience h3 { letter-spacing: 2px; }.company { text-transform: uppercase; font-size: 9px; font-weight: 500; letter-spacing: 2px; margin-top: 2px; margin-bottom: 16px; }.company span { margin: 0 8px; }.experience article > p:not(.company), .experience li { font-size: 10px; line-height: 1.5; color: #60605b; }.experience ul { padding-left: 13px; margin-top: 4px; }.experience li { padding-left: 3px; }.experience article + article { margin-top: 48px; }
+
+@media screen and (min-width: 621px) and (max-width: 810px) { .resume { zoom: .77; } }
+@media screen and (max-width: 620px) {
+  .resume { width: 100%; min-height: 100vh; padding: 0 25px 40px; }.header { height: 385px; }.visual-column { left: 0; width: 75px; }.yellow-tab { height: 58px; border-radius: 0 0 22px 22px; }.portrait { height: 170px; margin-top: 20px; border-radius: 23px; }.yellow-block { height: 65px; margin-top: 20px; border-radius: 22px 22px 0 0; }
+  .identity { top: 123px; left: 93px; }.first-name { font-size: 23px; letter-spacing: 2px; }.last-name { font-size: clamp(20px, 5.7vw, 34px); letter-spacing: 4px; margin-right: -4px; }.profession { font-size: 8px; line-height: 1.6; max-width: 195px; }.profile { top: 274px; left: 95px; font-size: 10px; padding-left: 17px; }
+  .columns { grid-template-columns: 1fr; gap: 37px; }.sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 22px; }.contact { grid-column: 1 / 3; padding-top: 0; font-size: 10px; }.skills, .education { margin-top: 0; }h2 { font-size: 14px; letter-spacing: 3px; }.skills ul { font-size: 10px; }.skills h3 { font-size: 9px; }.education h3 { font-size: 9px; }.experience h2 { letter-spacing: 5px; }.experience article > p:not(.company), .experience li { font-size: 11px; line-height: 1.6; }.experience article + article { margin-top: 32px; }.company { font-size: 8px; letter-spacing: 1.5px; }
+}
+@page { size: A4; margin: 0; }
+@media print { .resume { margin: 0; width: 210mm; min-height: 297mm; }* { print-color-adjust: exact; -webkit-print-color-adjust: exact; }article { break-inside: avoid; } }

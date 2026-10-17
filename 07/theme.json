@@ -1,0 +1,13 @@
+{
+  "accent": "#bd1830",
+  "paper": "#f5f5f5",
+  "ink": "#292929",
+  "font": "\"Be Vietnam Pro\", Arial, sans-serif",
+  "headingFont": "\"Be Vietnam Pro\", Arial, sans-serif",
+  "headingWeight": "700",
+  "headingTransform": "none",
+  "headingSpacing": "-1px",
+  "spacing": 22,
+  "headingStyle": "outline",
+  "radius": 0
+}

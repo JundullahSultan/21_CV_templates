@@ -1,0 +1,13 @@
+{
+  "accent": "#aaaab2",
+  "paper": "#ffffff",
+  "ink": "#303039",
+  "font": "Poppins, Arial, sans-serif",
+  "headingFont": "\"DM Sans\", Arial, sans-serif",
+  "headingWeight": "700",
+  "headingTransform": "none",
+  "headingSpacing": "-0.9px",
+  "spacing": 22,
+  "headingStyle": "rule",
+  "radius": 0
+}

@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-15T15:06:01.080Z",
+  "templates": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21"
+  ],
+  "checks": [
+    {
+      "name": "Manifest exactly matches every numeric folder",
+      "passed": true
+    },
+    {
+      "name": "Gallery has one linked card per folder, lazy WebP images and no live CVs",
+      "passed": true
+    },
+    {
+      "name": "Card 01 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 02 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 03 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 04 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 05 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 06 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 07 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 08 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 09 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 10 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 11 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 12 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 13 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 14 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 15 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 16 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 17 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 18 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 19 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 20 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Card 21 routes to its own React template with sample data",
+      "passed": true
+    },
+    {
+      "name": "Invalid template redirects with an explanatory message",
+      "passed": true
+    },
+    {
+      "name": "Deleted template assets redirect safely instead of breaking the editor",
+      "passed": true
+    },
+    {
+      "name": "Chat edits preview and autosaves; section picker asks questions",
+      "passed": true
+    },
+    {
+      "name": "Change template preserves all entered data and added sections",
+      "passed": true
+    },
+    {
+      "name": "Direct deep link and refresh return HTTP 200 and restore autosave",
+      "passed": true
+    },
+    {
+      "name": "Custom sections can be renamed, reordered and removed",
+      "passed": true
+    },
+    {
+      "name": "Start over restores sample data and removes optional sections",
+      "passed": true
+    },
+    {
+      "name": "Download PDF uses the same renderer and opens browser Save as PDF",
+      "passed": true
+    },
+    {
+      "name": "Oversized entries show a repair message and block incomplete PDF export",
+      "passed": true
+    },
+    {
+      "name": "Mobile gallery has one column, editor tabs and no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "Gallery and editor support ps with RTL",
+      "passed": true
+    },
+    {
+      "name": "Gallery and editor support fa with RTL",
+      "passed": true
+    },
+    {
+      "name": "Unavailable localStorage does not break editing",
+      "passed": true
+    },
+    {
+      "name": "Every template keeps an A4 canvas in its narrow-screen editor",
+      "passed": true
+    },
+    {
+      "name": "No browser runtime errors in routing and editing",
+      "passed": true
+    }
+  ],
+  "templateResults": [
+    {
+      "id": "01",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "02",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "03",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "04",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "05",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "06",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "07",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "08",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "id": "09",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "id": "10",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "id": "11",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "id": "12",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "id": "13",
+      "pages": 3,
+      "passed": true
+    },
+    {
+      "id": "14",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "15",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "16",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "17",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "id": "18",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "19",
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "id": "20",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "id": "21",
+      "pages": 1,
+      "passed": true
+    }
+  ],
+  "failures": []
+}

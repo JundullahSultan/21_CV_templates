@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-15T15:02:43.383Z",
+  "templates": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21"
+  ],
+  "checks": [
+    {
+      "name": "01: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "02: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "03: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "04: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "05: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "06: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "07: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "08: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "09: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "10: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "11: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "12: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "13: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "14: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "15: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "16: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "17: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "18: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "19: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "20: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "21: desktop always edits in place; mapped content saves",
+      "passed": true
+    },
+    {
+      "name": "Preview is centered at 86% at 375, 768, 1100, 1440, 1920px; true A4 dimensions do not change",
+      "passed": true
+    },
+    {
+      "name": "Chat is a closable drawer and never a side column",
+      "passed": true
+    },
+    {
+      "name": "Composite title/company edits stay separate; uppercase is presentation only",
+      "passed": true
+    },
+    {
+      "name": "Blur saves, Escape cancels, Shift+Enter preserves a newline",
+      "passed": true
+    },
+    {
+      "name": "Legacy headings and extra content edit independently and preserve raw case",
+      "passed": true
+    },
+    {
+      "name": "Bullets: Enter appends, empty Backspace removes; undo/redo restores the data object",
+      "passed": true
+    },
+    {
+      "name": "Rich paste is plain text; hidden controls stripped, meaningful Dari ZWNJ preserved",
+      "passed": true
+    },
+    {
+      "name": "IME composition Enter is ignored; Pashto/Dari/mixed text survives save, caret insertion and undo",
+      "passed": true
+    },
+    {
+      "name": "Date range uses year → month → day for both endpoints, plus Present and graduation",
+      "passed": true
+    },
+    {
+      "name": "Field limits stop oversize input; long accepted text re-paginates whole sections",
+      "passed": true
+    },
+    {
+      "name": "Every optional section field is mapped to its own shared-data path",
+      "passed": true
+    },
+    {
+      "name": "Touch OFF: taps and scroll gestures never edit",
+      "passed": true
+    },
+    {
+      "name": "Touch ON: scroll is ignored, tap opens ≥16px bottom sheet; live preview, cancel, Done and undo/redo",
+      "passed": true
+    },
+    {
+      "name": "Wide coarse-pointer tablet still requires explicit Edit CV",
+      "passed": true
+    },
+    {
+      "name": "Keyboard, editing and routing produce no runtime errors",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "unverified": [
+    "Physical Pashto keyboard / OS input method and caret selection on real Android and iOS devices."
+  ],
+  "passed": 36,
+  "failed": 0
+}

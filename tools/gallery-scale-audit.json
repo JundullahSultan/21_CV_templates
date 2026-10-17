@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-15T13:04:57.371Z",
+  "initialTemplates": 21,
+  "fixtureTemplates": 32,
+  "firstGalleryRenderMs": 3443,
+  "throttle": {
+    "cpu": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000
+  },
+  "requestsBeforeFirstRender": 8,
+  "futureTemplateWithoutAppChanges": true,
+  "passed": true
+}

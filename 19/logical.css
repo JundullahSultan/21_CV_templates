@@ -1,0 +1,85 @@
+html[dir="rtl"] .original-layout{transform-origin:100% 0!important;}
+
+
+
+
+html[dir="rtl"] body{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .cv-page{padding-inline-end:24px!important;padding-inline-start:18px!important;margin-inline-end:auto!important;margin-inline-start:auto!important;}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] h4,html[dir="rtl"] p,html[dir="rtl"] ul{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+
+
+html[dir="rtl"] .portrait{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .shape-one{left:auto!important;right:auto!important;inset-inline-start:18px!important;}
+html[dir="rtl"] .shape-two{left:auto!important;right:auto!important;inset-inline-start:-2px!important;}
+html[dir="rtl"] .shape-three{left:auto!important;right:auto!important;inset-inline-end:5px!important;}
+html[dir="rtl"] .avatar{left:auto!important;right:auto!important;inset-inline-start:14px!important;}
+
+html[dir="rtl"] .portrait-dot{left:auto!important;right:auto!important;inset-inline-start:6px!important;}
+
+
+
+
+
+
+
+
+html[dir="rtl"] .skill-list{padding-inline-end:0px!important;padding-inline-start:0px!important;}
+
+html[dir="rtl"] .skill-list li:not(:last-child)::after{margin-inline-start:6px!important;}
+html[dir="rtl"] .achievements ul{padding-inline-end:8px!important;padding-inline-start:29px!important;}
+
+html[dir="rtl"] .achievements li::before{left:auto!important;right:auto!important;inset-inline-start:-20px!important;}
+
+
+
+
+
+html[dir="rtl"] .identity{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .role{padding-inline-end:16px!important;padding-inline-start:16px!important;}
+
+
+
+html[dir="rtl"] .entry-top > p,html[dir="rtl"] .entry-sub > p{text-align:end!important;}
+
+
+
+html[dir="rtl"] .job ul{padding-inline-start:14px!important;}
+html[dir="rtl"] .job li{padding-inline-start:1px!important;}
+
+
+
+
+html[dir="rtl"] .page-footer{left:auto!important;right:auto!important;inset-inline-start:18px!important;inset-inline-end:24px!important;}
+
+
+
+@media screen and (max-width: 820px){html[dir="rtl"] body{padding-inline-end:0px!important;padding-inline-start:0px!important;}
+}
+@media screen and (max-width: 560px){html[dir="rtl"] .cv-page{padding-inline-end:23px!important;padding-inline-start:23px!important;}
+
+html[dir="rtl"] .identity{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .role{padding-inline-end:13px!important;padding-inline-start:13px!important;}
+
+
+
+
+
+html[dir="rtl"] .portrait{margin-inline-end:auto!important;margin-inline-start:auto!important;}
+
+
+
+
+
+
+
+html[dir="rtl"] .page-footer{left:auto!important;right:auto!important;inset-inline-start:23px!important;inset-inline-end:23px!important;}}
+
+@media print{html[dir="rtl"] html,html[dir="rtl"] body{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .cv-page{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+}

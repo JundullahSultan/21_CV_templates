@@ -1,0 +1,13 @@
+{
+  "accent": "#ff562d",
+  "paper": "#f8f5ee",
+  "ink": "#151515",
+  "font": "Arial, sans-serif",
+  "headingFont": "Arial, sans-serif",
+  "headingWeight": "700",
+  "headingTransform": "uppercase",
+  "headingSpacing": "1.2px",
+  "spacing": 22,
+  "headingStyle": "rule",
+  "radius": 0
+}

@@ -1,0 +1,126 @@
+html[dir="rtl"] .original-layout{transform-origin:100% 0!important;}
+
+
+html[dir="rtl"] body{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .resume{margin-inline-end:auto!important;margin-inline-start:auto!important;padding-inline-end:16mm!important;padding-inline-start:15mm!important;}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3,html[dir="rtl"] p,html[dir="rtl"] ul{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+
+
+html[dir="rtl"] .visual-column{left:auto!important;right:auto!important;inset-inline-start:27px!important;}
+
+
+html[dir="rtl"] .portrait img{left:auto!important;right:auto!important;inset-inline-end:0px!important;inset-inline-start:0px!important;}
+
+html[dir="rtl"] .identity{left:auto!important;right:auto!important;inset-inline-start:142px!important;}
+
+
+html[dir="rtl"] .last-name{margin-inline-end:-18px!important;}
+
+
+html[dir="rtl"] .profile{left:auto!important;right:auto!important;inset-inline-start:251px!important;inset-inline-end:0px!important;border-inline-start-width:1px!important;border-inline-start-style:solid!important;border-inline-start-color:rgb(157, 157, 151)!important;padding-inline-end:0px!important;padding-inline-start:28px!important;}
+
+
+
+
+
+
+
+
+
+html[dir="rtl"] .skills ul{padding-inline-start:15px!important;}
+html[dir="rtl"] .skills li{padding-inline-start:6px!important;}
+
+
+
+html[dir="rtl"] .education h3{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+
+
+html[dir="rtl"] .company span{margin-inline-end:8px!important;margin-inline-start:8px!important;}
+
+html[dir="rtl"] .experience ul{padding-inline-start:13px!important;}
+html[dir="rtl"] .experience li{padding-inline-start:3px!important;}
+
+@media screen and (min-width: 621px) and (max-width: 810px){}
+@media screen and (max-width: 620px){html[dir="rtl"] .resume{padding-inline-end:25px!important;padding-inline-start:25px!important;}
+
+html[dir="rtl"] .visual-column{left:auto!important;right:auto!important;inset-inline-start:0px!important;}
+
+
+
+html[dir="rtl"] .identity{left:auto!important;right:auto!important;inset-inline-start:93px!important;}
+
+html[dir="rtl"] .last-name{margin-inline-end:-4px!important;}
+
+html[dir="rtl"] .profile{left:auto!important;right:auto!important;inset-inline-start:95px!important;padding-inline-start:17px!important;}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media print{html[dir="rtl"] .resume{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+}
+
+html[dir="rtl"] body{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+
+html[dir="rtl"] .a4-page{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .original-layout .cv-job-title{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout .cv-job-meta{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout .cv-job-bullets{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-start:15px!important;}
+html[dir="rtl"] .original-layout .cv-job-bullets li{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+html[dir="rtl"] .original-layout .cv-degree h3{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout .cv-degree p{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .original-layout .cv-contact-completion{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .original-layout .cv-next{padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .cv-more{padding-inline-end:17mm!important;padding-inline-start:17mm!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .cv-more .cv-running-head{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .cv-more .cv-section{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;border-inline-end-width:0px!important;border-inline-start-width:0px!important;border-inline-end-style:none!important;border-inline-start-style:none!important;border-inline-end-color:currentcolor!important;border-inline-start-color:currentcolor!important;}
+html[dir="rtl"] .cv-more .cv-section > h2{border-inline-end-width:0px!important;border-inline-end-style:none!important;border-inline-end-color:currentcolor!important;border-inline-start-width:!important;border-inline-start-style:!important;border-inline-start-color:!important;padding-inline-end:0px!important;padding-inline-start:11px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+html[dir="rtl"] .cv-more .cv-section > p{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-contact-grid{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-contact-grid > *{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-job,html[dir="rtl"] .cv-more .cv-degree{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;border-inline-end-width:0px!important;border-inline-start-width:0px!important;border-inline-end-style:none!important;border-inline-start-style:none!important;border-inline-end-color:currentcolor!important;border-inline-start-color:currentcolor!important;}
+html[dir="rtl"] .cv-more .cv-job-title,html[dir="rtl"] .cv-more .cv-degree h3{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-job-meta,html[dir="rtl"] .cv-more .cv-degree p{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-job-bullets{padding-inline-start:18px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-job-bullets li{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-skill-list{padding-inline-end:0px!important;padding-inline-start:0px!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}
+html[dir="rtl"] .cv-more .cv-skill-list li{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:11px!important;padding-inline-start:11px!important;border-inline-end-color:!important;border-inline-end-style:!important;border-inline-end-width:!important;border-inline-start-color:!important;border-inline-start-style:!important;border-inline-start-width:!important;}
+html[dir="rtl"] .cv-page-footer{left:auto!important;right:auto!important;inset-inline-start:17mm!important;inset-inline-end:17mm!important;}
+
+
+@media print{html[dir="rtl"] html,html[dir="rtl"] body{margin-inline-end:0px!important;margin-inline-start:0px!important;padding-inline-end:0px!important;padding-inline-start:0px!important;}
+
+html[dir="rtl"] .a4-page{margin-inline-end:0px!important;margin-inline-start:0px!important;}
+
+
+}
+@media screen and (max-width: 820px){html[dir="rtl"] body{padding-inline-end:0px!important;padding-inline-start:0px!important;}
+
+
+
+html[dir="rtl"] .cv-more{padding-inline-end:25px!important;padding-inline-start:25px!important;}
+
+
+html[dir="rtl"] .cv-page-footer{left:auto!important;right:auto!important;inset-inline-start:25px!important;inset-inline-end:25px!important;}}
+@media screen and (max-width: 700px){html[dir="rtl"] .original-layout[data-template="02"] .education,html[dir="rtl"] .original-layout[data-template="02"] .experience{left:auto!important;right:auto!important;inset-inline-end:auto!important;inset-inline-start:auto!important;margin-inline-end:0px!important;margin-inline-start:0px!important;}}

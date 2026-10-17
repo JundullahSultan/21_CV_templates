@@ -1,0 +1,13 @@
+{
+  "accent": "#c8f000",
+  "paper": "#f5f4f3",
+  "ink": "#181818",
+  "font": "Montserrat, Arial, sans-serif",
+  "headingFont": "Montserrat, Arial, sans-serif",
+  "headingWeight": "600",
+  "headingTransform": "uppercase",
+  "headingSpacing": "4px",
+  "spacing": 22,
+  "headingStyle": "marker",
+  "radius": 0
+}

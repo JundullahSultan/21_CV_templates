@@ -1,0 +1,13 @@
+{
+  "accent": "#00d8e8",
+  "paper": "#082636",
+  "ink": "#f6faf9",
+  "font": "Poppins, Arial, sans-serif",
+  "headingFont": "\"Pirata One\", Georgia, serif",
+  "headingWeight": "400",
+  "headingTransform": "none",
+  "headingSpacing": "normal",
+  "spacing": 22,
+  "headingStyle": "outline",
+  "radius": 14
+}

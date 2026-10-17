@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "template": "21",
+  "checks": [
+    "20-section picker",
+    "chat prompts",
+    "live preview",
+    "reusable custom section",
+    "rename",
+    "reorder",
+    "signature upload",
+    "RTL selection",
+    "reload persistence",
+    "remove",
+    "static image export",
+    "mobile width",
+    "no client errors"
+  ]
+}
