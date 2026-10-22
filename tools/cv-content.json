@@ -1985,25 +1985,5 @@
         }
       ]
     }
-  },
-  "editing": {
-    "fieldLimits": {
-      "name": 120,
-      "role": 160,
-      "phone": 60,
-      "email": 254,
-      "city": 160,
-      "portfolio": 500,
-      "summary": 2400,
-      "title": 160,
-      "organization": 180,
-      "dates": 60,
-      "degree": 180,
-      "institution": 180,
-      "year": 30,
-      "bullet": 600,
-      "templateText": 1000
-    },
-    "historyLimit": 100
   }
 }

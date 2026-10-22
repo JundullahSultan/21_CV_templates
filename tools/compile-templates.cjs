@@ -73,10 +73,6 @@ async function compile() {
     defs = data.sectionDefinitions,
     manifest = [];
   fs.writeFileSync(path.join(out, "sections.json"), JSON.stringify(defs));
-  fs.writeFileSync(
-    path.join(out, "editing.json"),
-    JSON.stringify(data.editing),
-  );
   const browser = await engine
     .playwright()
     .chromium.launch(engine.browserOptions());
@@ -361,16 +357,193 @@ async function compile() {
             )
               section.dataset.cvSection = `legacy-${legacyIndex++}`;
           });
+          const editableFields = new Map();
+          const sampleValue = (path) =>
+            path.split(".").reduce((value, key) => value?.[key], sample);
+          const register = (
+            path,
+            element,
+            value,
+            kind = "text",
+            extra = {},
+          ) => {
+            if (element.parentElement?.closest("[data-bind],[data-list-bind]"))
+              return;
+            if (
+              element.parentElement?.closest("[data-skills-original]") &&
+              !element.closest("h2")
+            )
+              return;
+            if (editableFields.has(path)) return;
+            const container = element.closest("section,header,footer");
+            const heading = container?.querySelector("h2,h3");
+            const group =
+              text(heading) ||
+              (container?.tagName === "HEADER"
+                ? "Profile"
+                : container?.tagName === "FOOTER"
+                  ? "Contact and links"
+                  : "Other details");
+            const names = {
+              name: "Full name",
+              role: "Target role",
+              phone: "Phone",
+              email: "Email",
+              city: "City / country",
+              portfolio: "Portfolio link",
+              summary: "Professional summary",
+              title: "Job title",
+              organization: "Organization",
+              dates: "Dates",
+              bullets: "Achievements",
+              degree: "Degree / qualification",
+              institution: "Institution",
+              year: "Graduation year",
+              skills: "Skills",
+            };
+            const last = path.split(".").at(-1);
+            const label = path.startsWith("templateText.")
+              ? String(value).replace(/\s+/g, " ").trim().slice(0, 90)
+              : names[last] ||
+                (path.startsWith("skills.")
+                  ? `Skill ${Number(last) + 1}`
+                  : last);
+            editableFields.set(path, {
+              path,
+              group,
+              label: label || "Details",
+              kind,
+              defaultValue: value,
+              ...extra,
+            });
+          };
+          document
+            .querySelectorAll("[data-edit-path],[data-bind],[data-list-bind]")
+            .forEach((element) => {
+              const path =
+                element.dataset.editPath ||
+                element.dataset.bind ||
+                element.dataset.listBind;
+              const value =
+                editableDefaults[path] ?? sampleValue(path) ?? text(element);
+              register(
+                path,
+                element,
+                value,
+                Array.isArray(value) ? "lines" : "text",
+              );
+            });
+          if (section("skills") && !editableFields.has("skills"))
+            register("skills", section("skills"), sample.skills || [], "lines");
+          // Bind remaining text nodes individually, including numbers and text
+          // around inline markup, without flattening the original design.
+          let textIndex = 0,
+            linkIndex = 0,
+            levelIndex = 0;
+          const excluded =
+            'script,style,svg,[aria-hidden="true"],.page-footer,.cv-page-footer,.opt-running,.opt-footer';
+          for (const current of textNodes(document.body)) {
+            const element = current.parentElement;
+            if (
+              element.closest(excluded) ||
+              element.closest(
+                '[data-bind],[data-edit-path],[data-list-bind],[data-skills-original],meter,progress,[style*="--level"]',
+              ) ||
+              textBindings.has(current) ||
+              !/[\p{L}\p{N}]/u.test(current.textContent)
+            )
+              continue;
+            if (
+              replacements.some(([value]) =>
+                current.textContent.includes(value),
+              )
+            )
+              continue;
+            const path = `templateText.${id}.text${textIndex++}`;
+            editableDefaults[path] = current.textContent.trim();
+            textBindings.set(current, path);
+            register(path, element, editableDefaults[path]);
+          }
+          document.querySelectorAll("a[href]").forEach((element) => {
+            if (
+              element.dataset.hrefBind ||
+              element.closest(excluded) ||
+              element.getAttribute("href").startsWith("#")
+            )
+              return;
+            const path = `templateText.${id}.link${linkIndex++}`;
+            element.dataset.urlPath = path;
+            editableDefaults[path] = element.getAttribute("href");
+            register(path, element, editableDefaults[path], "url", {
+              label: `${text(element) || "Contact"} — link`,
+            });
+          });
+          document
+            .querySelectorAll('meter,progress,[style*="--level"]')
+            .forEach((element) => {
+              const path = `templateText.${id}.level${levelIndex++}`;
+              const value = element.hasAttribute("value")
+                ? Number(element.getAttribute("value"))
+                : parseFloat(element.style.getPropertyValue("--level"));
+              element.dataset.valuePath = path;
+              if (element.style.getPropertyValue("--level"))
+                element.dataset.levelStyle = "true";
+              editableDefaults[path] = value;
+              register(path, element, value, "number", {
+                label: element.getAttribute("aria-label") || "Proficiency",
+                min: Number(element.getAttribute("min") || 0),
+                max: Number(element.getAttribute("max") || 100),
+              });
+            });
+          // Give every design a shared photo slot, preserving its original frame.
+          const portraits = [
+            ...document.querySelectorAll('img[src*="portrait.jpg"]'),
+          ];
+          portraits.forEach((image) => (image.dataset.cvPhoto = "true"));
+          document
+            .querySelectorAll('[aria-label="Profile photo placeholder"]')
+            .forEach((frame) => {
+              const holder = frame.querySelector(".avatar") || frame;
+              const placeholder = holder.querySelector("svg");
+              if (placeholder) placeholder.dataset.cvPhotoPlaceholder = "true";
+              const image = document.createElement("img");
+              image.dataset.cvPhoto = "true";
+              image.dataset.cvPhotoOptional = "true";
+              image.style.cssText =
+                "width:100%;height:100%;object-fit:cover;display:block";
+              holder.append(image);
+            });
+          if (!document.querySelector("[data-cv-photo]")) {
+            const image = document.createElement("img");
+            image.dataset.cvPhoto = "true";
+            image.dataset.cvPhotoOptional = "true";
+            image.style.cssText =
+              "width:80px;height:80px;object-fit:cover;float:inline-end;margin:0 0 12px 16px;border-radius:8px";
+            document.querySelector("h1")?.before(image);
+          }
           function node(n) {
             if (n.nodeType === 3) {
               let value = n.textContent;
-              if (textBindings.has(n))
+              if (textBindings.has(n)) {
+                const path = textBindings.get(n);
+                register(
+                  path,
+                  n.parentElement,
+                  editableDefaults[path] ?? sampleValue(path) ?? value.trim(),
+                );
                 return {
                   text: value,
                   replace: value.trim(),
-                  bind: textBindings.get(n),
+                  bind: path,
                 };
+              }
               const match = replacements.find(([s]) => value.includes(s));
+              if (match && !n.parentElement.closest(excluded))
+                register(
+                  match[1],
+                  n.parentElement,
+                  sampleValue(match[1]) ?? match[0],
+                );
               return match
                 ? { text: value, replace: match[0], bind: match[1] }
                 : value;
@@ -405,6 +578,7 @@ async function compile() {
             jobCount: jobs.length,
             educationCount: degrees.length,
             editableDefaults,
+            editableFields: [...editableFields.values()],
           };
         },
         { sample, id },

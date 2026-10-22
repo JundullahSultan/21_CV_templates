@@ -589,7 +589,9 @@
 @font-face{font-family:"tpl-21-Rubik";src:url('/fonts/Amiri-Bold.ttf') format('truetype');font-weight:900;font-style:normal;font-display:block;unicode-range:U+0600-06FF,U+0750-077F,U+0800-08FF,U+FB50-FDFF,U+FE70-FEFF;}
 @font-face{font-family:"CV Arabic";src:url('/fonts/Amiri-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block;}
 @font-face{font-family:"CV Arabic";src:url('/fonts/Amiri-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:block;}
+@font-face{font-family:"CV Pashto";src:url('/fonts/ps_da.ttf') format('truetype');font-weight:400;font-style:normal;font-display:block;}
 .cv-render[dir="rtl"] *{letter-spacing:normal!important}
-.cv-render:lang(ps),.cv-render:lang(fa),.cv-render:lang(ps) *,.cv-render:lang(fa) *{font-family:"CV Arabic"!important}
+.cv-render:lang(fa),.cv-render:lang(fa) *{font-family:"CV Arabic"!important}
+html:lang(ps),html:lang(ps) body,html:lang(ps) #root *, .cv-render:lang(ps),.cv-render:lang(ps) *{font-family:"CV Pashto",sans-serif!important;letter-spacing:normal!important}
 .cv-render a[href^="tel:"],.cv-render a[href^="mailto:"],.cv-render a[href^="http"]{direction:ltr;unicode-bidi:isolate}
 .cv-render[dir="rtl"] :is(p,h1,h2,h3,li){unicode-bidi:plaintext}

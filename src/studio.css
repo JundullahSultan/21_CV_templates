@@ -258,6 +258,45 @@ textarea:focus-visible {
   text-align: start;
   padding: 10px;
 }
+.template-sections > h2 {
+  font-size: 15px;
+  margin-block: 24px 12px;
+}
+.template-section {
+  border: 1px solid #dce4da;
+  border-radius: 9px;
+  margin-block: 8px;
+}
+.template-section summary {
+  padding: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+.template-section summary span {
+  color: #6d7c70;
+  font-size: 11px;
+  margin-inline-start: 8px;
+}
+.template-fields {
+  display: grid;
+  gap: 6px;
+  padding: 0 10px 10px;
+}
+.template-fields button {
+  display: grid;
+  gap: 4px;
+  text-align: start;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.template-fields strong {
+  font-size: 12px;
+}
+.template-fields button span {
+  font-size: 11px;
+  color: #6d7c70;
+}
 .question {
   background: #f0f5ee;
   border-radius: 12px;

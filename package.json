@@ -12,9 +12,12 @@
     "check:app": "node tools/check-app.cjs",
     "check:builder": "node tools/check-app.cjs",
     "check:scale": "node tools/check-gallery-scale.cjs",
-    "check:all": "npm run check:app && npm run check && npm run check:scale && npm run check:editing && npm run check:pdf",
+    "check:all": "npm run check:app && npm run check && npm run check:scale && npm run check:editing && npm run check:sections && npm run check:fonts && npm run check:pdf",
     "check:pdf": "node tools/check-pdf-export.cjs",
-    "check:editing": "node tools/check-click-edit.cjs"
+    "check:photos": "node tools/check-photos.cjs",
+    "check:fonts": "node tools/check-fonts.cjs",
+    "check:sections": "node tools/check-sections.cjs",
+    "check:editing": "node tools/check-editing.cjs"
   },
   "devDependencies": {
     "pdfjs-dist": "^6.4.299",

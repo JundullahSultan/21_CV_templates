@@ -78,18 +78,6 @@ async function check() {
       }),
       page = await context.newPage(),
       errors = [];
-    async function openChat() {
-      if (!(await page.locator(".chat-panel").isVisible()))
-        await page.getByRole("button", { name: "Chat", exact: true }).click();
-    }
-    async function closeChat() {
-      if (await page.locator(".chat-panel").isVisible())
-        await page
-          .locator(".chat-panel")
-          .getByRole("button", { name: "Close", exact: true })
-          .first()
-          .click();
-    }
     page.on("pageerror", (err) => errors.push(err.message));
     const galleryRequests = [];
     page.on("request", (r) => galleryRequests.push(r.url()));
@@ -188,7 +176,6 @@ async function check() {
     await page.goto(base + "/edit/" + found[0]);
     await page.waitForSelector(".cv-render");
     await test("Chat edits preview and autosaves; section picker asks questions", async () => {
-      await openChat();
       await page
         .getByRole("button", { name: "Full name", exact: false })
         .click();
@@ -201,7 +188,6 @@ async function check() {
           .querySelector(".cv-render")
           .textContent.includes("Samira Test Profile"),
       );
-      await closeChat();
       await page
         .getByRole("button", { name: "Add section", exact: false })
         .click();
@@ -230,10 +216,14 @@ async function check() {
       const before = await page.evaluate(
         () => JSON.parse(localStorage.getItem("cv-studio-v3")).data,
       );
-      await closeChat();
       await page.getByRole("link", { name: "Change template" }).click();
       await page.locator(`[data-template-card="${found[1]}"]`).click();
       await page.waitForSelector(`.tpl-${found[1]}`);
+      await page.waitForFunction(() =>
+        document
+          .querySelector(".cv-render")
+          ?.textContent.includes("Proficient"),
+      );
       assert.deepEqual(
         await page.evaluate(
           () => JSON.parse(localStorage.getItem("cv-studio-v3")).data,
@@ -265,7 +255,6 @@ async function check() {
       );
     });
     await test("Custom sections can be renamed, reordered and removed", async () => {
-      await closeChat();
       await page
         .getByRole("button", { name: "Add section", exact: false })
         .click();
@@ -300,7 +289,6 @@ async function check() {
       );
     });
     await test("Download PDF uses the same renderer and opens browser Save as PDF", async () => {
-      await closeChat();
       await page.evaluate(() => {
         window.__printed = false;
         window.print = () => {
@@ -327,19 +315,19 @@ async function check() {
         });
         observer.observe(document.body, { childList: true });
       });
-      const nameField = page
-        .locator('.edit-stage [data-field="name"]:visible')
-        .first();
-      await nameField.click();
-      await nameField.fill("Exported Inline Profile");
+      await page.getByRole("button", { name: "Edit CV", exact: true }).click();
+      await page.locator("#answer").fill("Exported Chat Profile");
+      await page
+        .getByRole("button", { name: "Save answer", exact: false })
+        .click();
       await page
         .getByRole("button", { name: "Download PDF", exact: true })
         .click();
       await page.waitForFunction(() => window.__printed);
       const proof = await page.evaluate(() => window.__printProof);
       assert(proof.title.endsWith("_CV"));
-      assert.equal(proof.title, "Exported Inline Profile_CV");
-      assert(proof.text.replace(/\s+/g, "").includes("ExportedInlineProfile"));
+      assert.equal(proof.title, "Exported Chat Profile_CV");
+      assert(proof.text.replace(/\s+/g, "").includes("ExportedChatProfile"));
       assert.equal(proof.scripts, 0);
       assert.equal(proof.editor, 0);
       assert(
@@ -347,7 +335,6 @@ async function check() {
       );
     });
     await test("Oversized entries show a repair message and block incomplete PDF export", async () => {
-      await openChat();
       await page
         .getByRole("button", { name: "Professional summary", exact: false })
         .click();
@@ -393,7 +380,6 @@ async function check() {
       assert(
         await page.getByRole("tab", { name: "Chat", exact: true }).isVisible(),
       );
-      await closeChat();
       await page
         .getByRole("button", { name: "Add section", exact: false })
         .click();
@@ -406,7 +392,6 @@ async function check() {
       await page
         .getByRole("button", { name: "Save answer", exact: false })
         .click();
-      await closeChat();
       await page.getByRole("tab", { name: "Preview", exact: true }).click();
       await page.waitForSelector(".cv-render>[data-continuation]");
       const sheets = page.locator(

@@ -12,8 +12,7 @@ import {
 } from "react-router-dom";
 import { renderCv } from "./renderer.jsx";
 import { pdfExporter } from "./pdf/PdfExporter.jsx";
-import { ClickToEdit, useTouchEditing } from "./editing/ClickToEdit.jsx";
-import { useDataHistory } from "./editing/history.js";
+import { fieldValue, setFieldValue } from "./fields.js";
 import "./studio.css";
 import "./document.css";
 import { labelFor, fieldPrompt, descriptionFor, uiCopy } from "./labels.js";
@@ -151,28 +150,16 @@ function useTemplate(id) {
   return [value, error];
 }
 function TemplateStyle({ id, onLoad }) {
-  const [fontsReady, setFontsReady] = useState(false),
-    [styleReady, setStyleReady] = useState(false);
-  useEffect(() => {
-    if (fontsReady && styleReady) onLoad?.();
-  }, [fontsReady, styleReady]);
   return (
-    <>
-      <link
-        rel="stylesheet"
-        href="/fonts/fonts.css"
-        onLoad={() => setFontsReady(true)}
-      />
-      <link
-        rel="stylesheet"
-        href={`/templates/${id}/template.css`}
-        onLoad={() => setStyleReady(true)}
-      />
-    </>
+    <link
+      rel="stylesheet"
+      href={`/templates/${id}/template.css`}
+      onLoad={onLoad}
+    />
   );
 }
 function App() {
-  const [data, setData, history] = useDataHistory(initial.data || null);
+  const [data, setData] = useState(initial.data || null);
   const [manifest, setManifest] = useState(null),
     [defs, setDefs] = useState(null),
     [language, setLanguage] = useState(
@@ -205,10 +192,8 @@ function App() {
     setDefs,
     data,
     setData,
-    history,
     language,
     t,
-    direction,
   };
   return (
     <>
@@ -318,24 +303,10 @@ function Editor(props) {
     return <Navigate to="/" replace state={{ invalid: true }} />;
   return <EditorLoaded {...props} id={templateId} key={templateId} />;
 }
-function EditorLoaded({
-  id,
-  defs,
-  setDefs,
-  data,
-  setData,
-  language,
-  t,
-  direction,
-  history,
-}) {
+function EditorLoaded({ id, defs, setDefs, data, setData, language, t }) {
   const [template, error] = useTemplate(id),
     [cssReady, setCssReady] = useState(false),
-    [tab, setTab] = useState("preview"),
-    [chatOpen, setChatOpen] = useState(false),
-    [touchEnabled, setTouchEnabled] = useState(false),
-    [editingField, setEditingField] = useState(false),
-    [limits, setLimits] = useState(null),
+    [tab, setTab] = useState("chat"),
     [picker, setPicker] = useState(false),
     [question, setQuestion] = useState(null),
     [answer, setAnswer] = useState(""),
@@ -345,12 +316,9 @@ function EditorLoaded({
     [previewError, setPreviewError] = useState(""),
     [pdfBusy, setPdfBusy] = useState(false),
     [pdfProgress, setPdfProgress] = useState("");
-  const touch = useTouchEditing();
   useEffect(() => {
-    fetch("/editing.json")
-      .then((r) => r.json())
-      .then((v) => setLimits(v.fieldLimits));
-  }, []);
+    if (question) document.getElementById("answer")?.focus();
+  }, [question]);
   useEffect(() => {
     if (!defs)
       fetch("/sections.json")
@@ -360,13 +328,31 @@ function EditorLoaded({
   useEffect(() => {
     if (template && !data) setData(structuredClone(template.sample));
   }, [template]);
-  const record = data ? { ...data, language, direction } : null;
+  const record = data ? { ...data, language, direction: "ltr" } : null;
+  const templateGroups = new Map();
+  for (const field of template?.editableFields || []) {
+    if (!templateGroups.has(field.group)) templateGroups.set(field.group, []);
+    templateGroups.get(field.group).push(field);
+  }
   const patch = (changes) => setData((d) => ({ ...d, ...changes }));
   function ask(key, label, value, kind = "text", extra = {}) {
     setQuestion({ key, label, kind, ...extra });
-    setAnswer(kind === "json" ? JSON.stringify(value, null, 2) : value || "");
+    setAnswer(kind === "json" ? JSON.stringify(value, null, 2) : (value ?? ""));
     setTab("chat");
-    setChatOpen(true);
+  }
+  function askField(field) {
+    const value = fieldValue(data, field.path) ?? field.defaultValue;
+    ask(
+      field.path,
+      field.label,
+      Array.isArray(value) ? value.join("\n") : value,
+      field.kind,
+      {
+        path: field.path,
+        min: field.min,
+        max: field.max,
+      },
+    );
   }
   const coreFields = {
     jobs: [
@@ -385,7 +371,8 @@ function EditorLoaded({
     ],
   };
   function askCore(key, label) {
-    if (coreFields[key]) {
+    if (key === "photo") ask(key, label, data.photo, "image");
+    else if (coreFields[key]) {
       const [field, prompt] = coreFields[key][0];
       ask(field, prompt, data[key]?.[0]?.[field], "text", {
         collection: key,
@@ -432,7 +419,35 @@ function EditorLoaded({
         !/^https?:\/\//i.test(value)
       )
         throw Error("Use a link starting with https://.");
-      if (q.collection) {
+      if (q.path) {
+        let next = value;
+        if (q.kind === "lines")
+          next = String(value)
+            .split("\n")
+            .map((line) => line.trim())
+            .filter(Boolean);
+        if (q.kind === "number") {
+          next = Number(value);
+          if (
+            !String(value).trim() ||
+            !Number.isFinite(next) ||
+            next < q.min ||
+            next > q.max
+          )
+            throw Error(`Enter a number from ${q.min} to ${q.max}.`);
+        }
+        if (
+          q.kind === "url" &&
+          value &&
+          !/^(https?:\/\/|mailto:|tel:)/i.test(value)
+        )
+          throw Error("Use an https://, mailto: or tel: link.");
+        if (q.path === "portfolio" && value && !/^https?:\/\//i.test(value))
+          throw Error("Use a link starting with https://.");
+        setData((current) => setFieldValue(current, q.path, next));
+        setQuestion(null);
+        setAnswer("");
+      } else if (q.collection) {
         let v = value;
         if (q.key === "bullets") {
           v = String(value)
@@ -568,7 +583,31 @@ function EditorLoaded({
       return;
     }
     const reader = new FileReader();
-    reader.onload = () => commit(reader.result);
+    reader.onerror = () =>
+      setNotice("The image could not be read. Choose another file.");
+    reader.onload = async () => {
+      try {
+        const image = new Image();
+        image.src = reader.result;
+        await image.decode();
+        // Store a self-contained, bounded image for autosave and offline PDF export.
+        const canvas = document.createElement("canvas");
+        const scale = Math.min(
+          1,
+          1200 / Math.max(image.naturalWidth, image.naturalHeight),
+        );
+        canvas.width = Math.max(1, Math.round(image.naturalWidth * scale));
+        canvas.height = Math.max(1, Math.round(image.naturalHeight * scale));
+        canvas
+          .getContext("2d")
+          .drawImage(image, 0, 0, canvas.width, canvas.height);
+        commit(canvas.toDataURL("image/png"));
+      } catch {
+        setNotice(
+          "This image could not be opened. Choose a valid PNG, JPEG or WebP.",
+        );
+      }
+    };
     reader.readAsDataURL(file);
   }
   if (error) return <Navigate to="/" replace state={{ invalid: true }} />;
@@ -580,46 +619,8 @@ function EditorLoaded({
       <div className="editor-toolbar">
         <Link to="/">← {t.back}</Link>
         <div>
-          {touch && (
-            <button
-              aria-pressed={touchEnabled}
-              onClick={() => {
-                setTouchEnabled((v) => !v);
-                setTab("preview");
-                setChatOpen(false);
-              }}
-            >
-              {touchEnabled
-                ? language === "ps"
-                  ? "بشپړ"
-                  : language === "fa"
-                    ? "انجام شد"
-                    : "Done"
-                : t.edit}
-            </button>
-          )}
-          <button
-            aria-expanded={chatOpen}
-            onClick={() => {
-              setChatOpen((v) => !v);
-              setTab("chat");
-            }}
-          >
-            {t.chat}
-          </button>
-          <button
-            aria-label="Undo"
-            disabled={!history.canUndo || editingField}
-            onClick={history.undo}
-          >
-            ↶ Undo
-          </button>
-          <button
-            aria-label="Redo"
-            disabled={!history.canRedo || editingField}
-            onClick={history.redo}
-          >
-            ↷ Redo
+          <button onClick={() => ask("name", "Full name", data.name)}>
+            {t.edit}
           </button>
           <button className="primary" onClick={() => setPicker(true)}>
             ＋ {t.add}
@@ -628,7 +629,7 @@ function EditorLoaded({
             {t.change}
           </Link>
           <button
-            disabled={!!previewError || pdfBusy || (touch && editingField)}
+            disabled={!!previewError || pdfBusy}
             aria-busy={pdfBusy}
             onClick={async () => {
               setPdfBusy(true);
@@ -652,53 +653,24 @@ function EditorLoaded({
           </button>
         </div>
       </div>
-      {notice && !chatOpen && (
-        <p role="status" className="notice">
-          {notice}
-        </p>
-      )}
       <div className="mobile-tabs" role="tablist">
         <button
           role="tab"
           aria-selected={tab === "chat"}
-          onClick={() => {
-            setTab("chat");
-            setChatOpen(true);
-          }}
+          onClick={() => setTab("chat")}
         >
           {t.chat}
         </button>
         <button
           role="tab"
           aria-selected={tab === "preview"}
-          onClick={() => {
-            setTab("preview");
-            setChatOpen(false);
-          }}
+          onClick={() => setTab("preview")}
         >
           {t.preview}
         </button>
       </div>
-      <main className="editor click-editor" data-mobile-tab={tab}>
-        {chatOpen && (
-          <button
-            className="chat-scrim"
-            aria-label="Close chat"
-            onClick={() => {
-              setChatOpen(false);
-              setTab("preview");
-            }}
-          />
-        )}
-        <aside className="chat-panel" hidden={!chatOpen}>
-          <button
-            onClick={() => {
-              setChatOpen(false);
-              setTab("preview");
-            }}
-          >
-            {t.close}
-          </button>
+      <main className="editor" data-mobile-tab={tab}>
+        <aside className="chat-panel">
           <div className="app-panel-title">
             <div>
               <p className="app-eyebrow">{uiCopy[language].editorEyebrow}</p>
@@ -711,6 +683,7 @@ function EditorLoaded({
           <div className="detail-buttons">
             {[
               ["name", "Full name"],
+              ["photo", "Replace picture"],
               ["role", "Target role"],
               ["phone", "Phone"],
               ["email", "Email"],
@@ -724,6 +697,33 @@ function EditorLoaded({
               <button key={key} onClick={() => askCore(key, label)}>
                 {labelFor(language, key, label)} <span>↗</span>
               </button>
+            ))}
+          </div>
+          <div className="template-sections">
+            <h2>{labelFor(language, "allSections", "All CV sections")}</h2>
+            {[...templateGroups].map(([group, fields]) => (
+              <details className="template-section" key={group}>
+                <summary>
+                  {group} <span>{fields.length}</span>
+                </summary>
+                <div className="template-fields">
+                  {fields.map((field) => (
+                    <button
+                      type="button"
+                      key={field.path}
+                      data-template-field={field.path}
+                      onClick={() => askField(field)}
+                    >
+                      <strong>{field.label}</strong>
+                      <span>
+                        {String(
+                          fieldValue(data, field.path) ?? field.defaultValue,
+                        ).slice(0, 110)}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </details>
             ))}
           </div>
           <div className="conversation" aria-live="polite">
@@ -820,22 +820,24 @@ function EditorLoaded({
                     {t.remove}
                   </button>
                 </div>
-                {s.type === "custom" && (
-                  <label>
-                    {t.rename}
-                    <input
-                      aria-label="Custom section name"
-                      value={s.title || ""}
-                      maxLength={80}
-                      onChange={(e) =>
-                        updateSection(s.id, (x) => ({
-                          ...x,
-                          title: e.target.value,
-                        }))
-                      }
-                    />
-                  </label>
-                )}
+                <label>
+                  {t.rename}
+                  <input
+                    aria-label={
+                      s.type === "custom"
+                        ? "Custom section name"
+                        : `${defs[s.type]?.title || s.type} section name`
+                    }
+                    value={s.title || ""}
+                    maxLength={80}
+                    onChange={(e) =>
+                      updateSection(s.id, (x) => ({
+                        ...x,
+                        title: e.target.value,
+                      }))
+                    }
+                  />
+                </label>
                 {s.items.map((item, n) => (
                   <button
                     className="entry-button"
@@ -873,20 +875,13 @@ function EditorLoaded({
           </button>
         </aside>
         <section className="preview-panel" aria-label="Live CV preview">
-          {cssReady && limits && (
-            <ClickToEdit
-              template={template}
-              data={record}
-              definitions={defs}
-              limits={limits}
-              setData={setData}
-              touch={touch}
-              enabled={!touch || touchEnabled}
-              history={history}
-              onError={setPreviewError}
-              onEditingChange={setEditingField}
-            />
-          )}
+          {cssReady &&
+            renderCv({
+              template,
+              data: record,
+              definitions: defs,
+              onError: setPreviewError,
+            })}
         </section>
       </main>
       {picker && (

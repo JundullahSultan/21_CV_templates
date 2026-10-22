@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-22T04:24:13.171Z",
+  "mode": "chat forms with read-only CV preview",
+  "templates": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21"
+  ],
+  "checks": [
+    {
+      "name": "01: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "02: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "03: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "04: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "05: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "06: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "07: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "08: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "09: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "10: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "11: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "12: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "13: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "14: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "15: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "16: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "17: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "18: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "19: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "20: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "21: preview clicks do not edit; Edit CV saves through chat",
+      "passed": true
+    },
+    {
+      "name": "Phone uses Chat / Preview tabs and Edit CV returns to form, never a bottom sheet",
+      "passed": true
+    },
+    {
+      "name": "Saved CV values and previous template text edits survive the UI rollback",
+      "passed": true
+    },
+    {
+      "name": "No browser errors",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": 24,
+  "failed": 0
+}

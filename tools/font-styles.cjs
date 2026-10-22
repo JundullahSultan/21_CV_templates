@@ -51,7 +51,8 @@ function writeFontStyles(ids) {
   css +=
     face("CV Arabic", "Amiri-Regular.ttf", 400, "") +
     face("CV Arabic", "Amiri-Bold.ttf", 700, "") +
-    '.cv-render[dir="rtl"] *{letter-spacing:normal!important}\n.cv-render:lang(ps),.cv-render:lang(fa),.cv-render:lang(ps) *,.cv-render:lang(fa) *{font-family:"CV Arabic"!important}\n.cv-render a[href^="tel:"],.cv-render a[href^="mailto:"],.cv-render a[href^="http"]{direction:ltr;unicode-bidi:isolate}\n.cv-render[dir="rtl"] :is(p,h1,h2,h3,li){unicode-bidi:plaintext}\n';
+    face("CV Pashto", "ps_da.ttf", 400, "") +
+    '.cv-render[dir="rtl"] *{letter-spacing:normal!important}\n.cv-render:lang(fa),.cv-render:lang(fa) *{font-family:"CV Arabic"!important}\nhtml:lang(ps),html:lang(ps) body,html:lang(ps) #root *, .cv-render:lang(ps),.cv-render:lang(ps) *{font-family:"CV Pashto",sans-serif!important;letter-spacing:normal!important}\n.cv-render a[href^="tel:"],.cv-render a[href^="mailto:"],.cv-render a[href^="http"]{direction:ltr;unicode-bidi:isolate}\n.cv-render[dir="rtl"] :is(p,h1,h2,h3,li){unicode-bidi:plaintext}\n';
   fs.writeFileSync(path.join(__dirname, "../public/fonts/fonts.css"), css);
 }
 module.exports = { writeFontStyles };

@@ -313,7 +313,9 @@ async function check() {
               (await p.getTextContent()).items.map((i) => i.str).join(" ");
           }
           for (const value of [
-            record.name,
+            // PDF.js splits this font's Arabic presentation glyphs into visual
+            // order. Check Pashto Unicode text with the native PDF reader below.
+            ...(record.language === "ps" ? [] : [record.name]),
             record.email,
             ...(samples[scenario]
               ? []
@@ -323,7 +325,7 @@ async function check() {
               normalize(text).includes(normalize(value)),
               "Searchable text missing: " + value,
             );
-          if (samples[scenario]) {
+          if (samples[scenario] && record.language !== "ps") {
             const words =
               scenario === "fa" ? ["پژوهش", "همکاری"] : ["تجربې", "څېړنه"];
             for (const word of words)
@@ -351,6 +353,7 @@ async function check() {
             screenPageCount: screenCount,
             language: record.language || "en",
             expectedArabic: !!samples[scenario],
+            expectedName: record.name,
           });
         } catch (error) {
           result.error = error.message;

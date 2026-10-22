@@ -1,5 +1,7 @@
 const labels = {
   ps: {
+    allSections: "د سي وي ټولې برخې",
+    photo: "انځور بدلول",
     name: "بشپړ نوم",
     role: "مطلوبه دنده",
     phone: "تلیفون",
@@ -32,6 +34,8 @@ const labels = {
     signature: "لاسلیک",
   },
   fa: {
+    allSections: "همه بخش‌های رزومه",
+    photo: "تعویض عکس",
     name: "نام کامل",
     role: "عنوان شغلی مورد نظر",
     phone: "تلفن",

@@ -1,19 +1,8 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 const get = (data, path) => path?.split(".").reduce((v, k) => v?.[k], data);
-const fieldProps = (data, path) =>
-  data._builderFields
-    ? {
-        "data-field": path,
-        dir: "auto",
-        tabIndex: 0,
-        role: "textbox",
-        "aria-label": path,
-      }
-    : {};
 const fieldText = (data, path, value = get(data, path)) => (
   <span
     className={`cv-text-value${String(value).includes("\n") ? " cv-multiline" : ""}`}
-    {...fieldProps(data, path)}
   >
     {value ?? ""}
   </span>
@@ -71,25 +60,20 @@ const attributeNames = {
 function treeNode(node, data, key, omit) {
   if (typeof node === "string") return footerText(node, data);
   if (!node.tag) {
-    if (node.bind && data._builderFields) {
-      const parts = node.text.split(node.replace);
-      return (
-        <React.Fragment key={key}>
-          {parts[0]}
-          {fieldText(data, node.bind)}
-          {parts.slice(1).join(node.replace)}
-        </React.Fragment>
-      );
-    }
     return footerText(
       node.replace
-        ? node.text.replaceAll(node.replace, String(get(data, node.bind) ?? ""))
+        ? node.text.replaceAll(
+            node.replace,
+            String(get(data, node.bind) ?? node.replace),
+          )
         : node.text,
       data,
     );
   }
   const a = node.attrs || {},
     section = a["data-cv-section"] || a["data-section"];
+  if (a["data-cv-photo-optional"] && !data.photo) return null;
+  if (a["data-cv-photo-placeholder"] && data.photo) return null;
   if (omit?.includes(section)) return null;
   if (
     a["data-record-type"] &&
@@ -98,19 +82,25 @@ function treeNode(node, data, key, omit) {
     return null;
   const props = { key };
   for (const [k, v] of Object.entries(a)) {
+    if (k.startsWith("data-edit-")) continue;
     if (k === "style") props.style = styleObject(v);
     else if (!k.startsWith("on")) props[attributeNames[k] || k] = v;
   }
+  if (a["data-cv-photo"]) {
+    props.src = data.photo || a.src;
+    props.alt = `Portrait of ${data.name || "CV owner"}`;
+    props.style = {
+      ...props.style,
+      objectFit: "cover",
+      objectPosition: "center",
+    };
+  }
   if (a["data-bind"]) {
-    Object.assign(props, fieldProps(data, a["data-bind"]));
     props.className = [props.className, "cv-text-value"]
       .filter(Boolean)
       .join(" ");
   }
-  if (a["data-edit-bind"])
-    Object.assign(props, fieldProps(data, a["data-edit-bind"]));
-  if (a["data-edit-path"])
-    Object.assign(props, fieldProps(data, a["data-edit-path"]));
+
   if (
     String(get(data, a["data-bind"] || a["data-edit-path"]) || "").includes(
       "\n",
@@ -156,8 +146,23 @@ function treeNode(node, data, key, omit) {
         : a["data-href-bind"] === "phone"
           ? "tel:"
           : "") + (data[a["data-href-bind"]] || "");
+  if (a["data-url-path"]) props.href = get(data, a["data-url-path"]) ?? a.href;
+  const level = a["data-value-path"]
+    ? get(data, a["data-value-path"])
+    : undefined;
+  if (level !== undefined) {
+    if (a["data-level-style"])
+      props.style = { ...props.style, "--level": `${level}%` };
+    else props.value = level;
+    props["aria-label"] = `${level}%`;
+  }
   let children;
-  if (a["data-edit-path"] && get(data, a["data-edit-path"]) !== undefined) {
+  if (level !== undefined)
+    children = a["data-level-style"] ? <b>{level}%</b> : `${level}%`;
+  else if (
+    a["data-edit-path"] &&
+    get(data, a["data-edit-path"]) !== undefined
+  ) {
     children = String(get(data, a["data-edit-path"]));
     props.className = [props.className, "cv-text-value"]
       .filter(Boolean)
@@ -176,9 +181,7 @@ function treeNode(node, data, key, omit) {
         style={{ paddingInlineStart: 18, fontSize: 12, lineHeight: 1.7 }}
       >
         {data.skills?.map((s, i) => (
-          <li key={i} {...fieldProps(data, `skills.${i}`)}>
-            {s}
-          </li>
+          <li key={i}>{s}</li>
         ))}
       </ul>,
     ];
@@ -194,9 +197,7 @@ function treeNode(node, data, key, omit) {
         : n.text || n.children?.map(text).join("") || "";
     const clean = (s) => s.replace(/[^\p{L}\p{N}]/gu, "").toLowerCase();
     if (clean(node.children.map(text).join("")) === clean(data.name || ""))
-      children = node.children.map((c, i) =>
-        treeNode(c, { ...data, _builderFields: false }, i, omit),
-      );
+      children = node.children.map((c, i) => treeNode(c, data, i, omit));
     else {
       const parts = String(data.name || "").split(/\s+/),
         first = parts.shift(),
@@ -229,7 +230,6 @@ function treeNode(node, data, key, omit) {
         {
           key: i,
           className: String(v).includes("\n") ? "cv-multiline" : undefined,
-          ...fieldProps(data, `${a["data-list-bind"]}.${i}`),
         },
         v,
       ),
@@ -336,9 +336,7 @@ function optionalBlocks(data, defs, template, relocated = []) {
             </p>
             <ul className="opt-copy" style={{ paddingInlineStart: 20 }}>
               {j.bullets?.map((b, n) => (
-                <li key={n} {...fieldProps(data, `jobs.${i}.bullets.${n}`)}>
-                  {b}
-                </li>
+                <li key={n}>{b}</li>
               ))}
             </ul>
           </div>
@@ -380,15 +378,7 @@ function optionalBlocks(data, defs, template, relocated = []) {
           </p>
           <ul className="opt-copy" style={{ paddingInlineStart: 20 }}>
             {j.bullets.map((b, n) => (
-              <li
-                key={n}
-                {...fieldProps(
-                  data,
-                  `jobs.${i + template.jobCount}.bullets.${n}`,
-                )}
-              >
-                {b}
-              </li>
+              <li key={n}>{b}</li>
             ))}
           </ul>
         </div>
@@ -496,9 +486,7 @@ export function CvDocument({
   definitions,
   onReady = () => {},
   onError = () => {},
-  builderFields = false,
 }) {
-  data = { ...data, _builderFields: builderFields };
   const root = useRef(null),
     measure = useRef(null),
     [pages, setPages] = useState([]),

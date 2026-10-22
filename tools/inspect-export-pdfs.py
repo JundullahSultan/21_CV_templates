@@ -9,9 +9,6 @@ import uharfbuzz as hb
 
 audit=Path(sys.argv[1]);report=json.loads(audit.read_text(encoding='utf-8'))
 root=Path(__file__).resolve().parent.parent
-font_data=(root/'public/fonts/Amiri-Regular.ttf').read_bytes()
-arabic_font=TTFont(root/'public/fonts/Amiri-Regular.ttf')
-hbfont=hb.Font(hb.Face(font_data));hb.ot_font_set_funcs(hbfont)
 
 for result in report['results']:
  if not result['passed']:continue
@@ -64,8 +61,14 @@ for result in report['results']:
   result['previewRasterAgreement']=round(agreement,4)
   result['backgroundColorsPreserved']=True
   if result.get('expectedArabic'):
-   arabic=[span for span in trace if 'Amiri' in span['font']]
-   assert arabic,'Arabic script used no embedded Amiri font'
+   font_path=root/'public/fonts'/('ps_da.ttf' if result['language']=='ps' else 'Amiri-Regular.ttf')
+   font_data=font_path.read_bytes();arabic_font=TTFont(font_path)
+   hbfont=hb.Font(hb.Face(font_data));hb.ot_font_set_funcs(hbfont)
+   font_name=arabic_font['name'].getDebugName(6)
+   arabic=[span for span in trace if font_name in span['font'].replace(' ','')]
+   assert arabic,'Arabic script used no embedded '+font_name+' font'
+   for word in result.get('expectedName','').split():
+    assert any(page.search_for(word) for page in pdf),'Native PDF name search failed for '+word
    # Chrome retains original glyph indices in its TrueType subsets. Contextual
    # GSUB glyphs cannot be produced by painting isolated Unicode letter glyphs.
    cmap=arabic_font.getBestCmap();isolated={arabic_font.getGlyphID(cmap[c]) for c in range(0x600,0x700) if c in cmap}
@@ -75,10 +78,13 @@ for result in report['results']:
    buf=hb.Buffer();buf.add_str('تجربې');buf.guess_segment_properties();hb.shape(hbfont,buf)
    reference={g.codepoint for g in buf.glyph_infos};actual={ch[1] for span in arabic for ch in span['chars']}
    assert len(reference.intersection(actual))>=2,'PDF contextual glyphs disagree with the HarfBuzz reference'
-   search_word='پژوهش' if result['scenario']=='fa' else 'تجربې'
-   hits=sum(len(page.search_for(search_word)) for page in pdf)
-   assert hits>0,'Native PDF text search failed for '+search_word
-   result['arabicShaping']={'embeddedAmiri':True,'contextualGlyphCount':len(contextual),'harfbuzzReferenceGlyphs':sorted(reference),'referenceMatches':len(reference.intersection(actual)),'nativeSearchHits':hits}
+   search_words=['پژوهش','همکاری'] if result['scenario']=='fa' else ['تجربې','څېړنه']
+   hits=0
+   for search_word in search_words:
+    word_hits=sum(len(page.search_for(search_word)) for page in pdf)
+    assert word_hits>0,'Native PDF text search failed for '+search_word
+    hits+=word_hits
+   result['arabicShaping']={'embeddedFont':font_name,'contextualGlyphCount':len(contextual),'harfbuzzReferenceGlyphs':sorted(reference),'referenceMatches':len(reference.intersection(actual)),'nativeSearchHits':hits}
   # Save representative PDF raster evidence for visual review.
   if result['id'] in ['01','13','21'] and result['scenario'] in ['sample','ps','fa','mixed','all-sections']:
    pdf[0].get_pixmap(matrix=fitz.Matrix(1.25,1.25),alpha=False).save(str((root/result['pdf']).parent/'pdf-page-1.png'))

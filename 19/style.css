@@ -1,10 +1,4 @@
-@font-face {
-  font-family: 'Rubik';
-  src: url('Rubik-Variable.ttf') format('truetype');
-  font-weight: 300 900;
-  font-style: normal;
-  font-display: swap;
-}
+@import url("fonts/fonts.css");
 
 :root { --green: #145d50; --mint: #9fddbe; --light-mint: #c2e8d7; --text: #565656; --muted: #999e9b; }
 * { box-sizing: border-box; }

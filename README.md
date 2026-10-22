@@ -1,4 +1,4 @@
-# CV Studio
+# 21_CV_templates
 
 A React + Vite application with React Router. Browsing, editing, autosave and printing run in the browser. Deploy `dist/` to a free static host; no backend is required.
 
@@ -12,23 +12,17 @@ Build once before development to generate the manifest and template assets. Open
 
 ## Gallery and editor
 
-`/` lists every numbered folder discovered at build time. Cards use small, lazy-loaded WebP thumbnails. `/edit/:templateId` opens that template; invalid or missing templates return to the gallery with a short message. The preview is centered at 86% of the viewport; chat is a collapsible drawer. Mobile retains Chat and Preview tabs.
+`/` lists every numbered folder discovered at build time. Cards use small, lazy-loaded WebP thumbnails. `/edit/:templateId` opens that template; invalid or missing templates return to the gallery with a short message. Desktop shows the chat panel beside a read-only CV preview. Mobile has Chat and Preview tabs.
 
-Desktop click-to-edit is always enabled when the viewport is at least 1000px with a fine pointer and hover. There is no desktop Edit CV button. Narrow screens and coarse pointers (including tablets) use Edit CV / Done; viewing mode never starts edits. The toolbar also provides Chat, Undo/Redo, Add section, Change template and Download PDF. Changing templates preserves the complete shared data object, including optional sections. Start over restores the chosen sample. Autosave uses localStorage inside try/catch and restores data on return; unavailable storage produces a notice. Personal data stays on the device.
+Use **Edit CV** or a detail button in the chat panel, answer the question and choose **Save answer**. Clicking the CV text never starts editing. The toolbar also provides Add section, Change template and Download PDF. Changing templates preserves the complete shared data object, including optional sections and previously saved text. Start over restores the chosen sample. Autosave uses localStorage inside try/catch and restores data on return; unavailable storage produces a notice. Personal data stays on the device.
 
-Editable builder text has a `data-field` path. Desktop edits save on blur or Enter; Shift+Enter inserts a newline and Escape cancels. Bullet Enter adds a bullet; Backspace removes an empty bullet. Ctrl/Cmd+Z, Ctrl/Cmd+Shift+Z and Ctrl+Y use data-object history (up to 100 changes), which also includes chat and section changes. History lasts for the current tab session; autosaved content survives refresh. Field limits are in `tools/cv-content.json` under `editing` and in optional-section schemas.
-
-Touch taps require a stationary gesture. Small text gets a minimum 44px virtual hit area without adding printed padding, and a bottom sheet uses an 18px plain-text input with a live draft preview, Cancel and Done. Cancel restores the saved value; Done commits one undoable change. Date fields open year → month → day dropdowns with year-only, month-only and Present options. New date values use ISO dates to avoid ambiguous numeric formats. Meaningful Pashto/Dari ZWNJ/ZWJ characters are retained while pasted formatting and hidden direction controls are removed.
-
-The A4 canvas is scaled with CSS transform, retaining its actual dimensions and measured page breaks. Whole overflowing sections/entries move to continuation pages after each saved edit (and during touch drafts). An individual entry that exceeds a whole A4 page must be shortened or split; PDF export stays blocked until repaired. Original extra text uses per-template `templateText` paths; personal details and optional sections remain shared. Editor field metadata, event handlers, outlines and the builder stylesheet are absent from static/PDF documents.
-
-Physical Pashto keyboard and mobile caret behavior remain unverified. Follow [the click-to-edit device checklist](docs/click-edit-device-tests.md); automated composition events cannot replace an OS keyboard test.
+**All CV sections** lists the chosen template's own sections. Expand a section and select a field to edit headings, text, dates, statistics, links or proficiency levels. Each field updates the original design and PDF. Added sections also support renaming. Run `npm run check:sections` to edit every generated field across all templates, verify persistence, and export PDF evidence to `test-results/sections`.
 
 English, Pashto and Dari navigation and RTL are supported. Sample CV content remains English until edited. Work experience and education use sequential questions; skills accept one item per line.
 
 **Download PDF prepares a dedicated print document, then opens the browser print dialog.** A loading state covers layout, local fonts and image preparation. Choose Save as PDF, A4 portrait, 100% scale, no headers/footers and background graphics enabled. The suggested filename is `<Full Name>_CV.pdf`, falling back to `CV.pdf`; the OS save dialog can override it. Text remains selectable. The live preview, PDF print, thumbnails and static HTML generator all use `src/renderer.jsx`.
 
-The `PdfExporter` interface is in `src/pdf/PdfExporter.jsx`; its sole enabled strategy is selected by `PDF_EXPORT_STRATEGY` in `src/pdf/config.js`. No serverless strategy or paid service is enabled. See [the exporter contract](src/pdf/README.md). Static Rubik and open-license fallback fonts, plus Amiri for Pashto/Dari, are self-hosted with their licenses in `public/fonts/`. Arabic-script CVs use Amiri throughout to preserve joining, combining marks and searchable mixed runs.
+The `PdfExporter` interface is in `src/pdf/PdfExporter.jsx`; its sole enabled strategy is selected by `PDF_EXPORT_STRATEGY` in `src/pdf/config.js`. No serverless strategy or paid service is enabled. See [the exporter contract](src/pdf/README.md). Fonts are self-hosted in `public/fonts/`. Pashto uses `ps_da.ttf` throughout the interface, CV preview and PDF; Dari uses Amiri. Run `npm run check:fonts` to verify language switching and bundled font references.
 
 **Physical Android Chrome and iOS Safari remain unverified until you test and report back.** Follow [the exact mobile acceptance checklist](docs/pdf-mobile-tests.md), including saving, searching, copying, page breaks, colors, cancellation and retry.
 
@@ -68,7 +62,7 @@ npm run check:editing
 - check-app.cjs tests the production gallery, folder parity, every editor route, invalid routes, switching/data retention, chat, section controls, autosave/restore/storage failure, deep-link refresh, PDF action, mobile tabs/width and RTL.
 - check-react-layouts.cjs (also check-cvs.cjs) tests every template with each optional section, all sections, empty sections, many entries, RTL, A4 geometry, PDF page counts and selectable text.
 - check-gallery-scale.cjs adds temporary numeric folders to reach at least 32 templates, compiles them without app changes, opens a new template and measures first gallery render under 4x CPU throttling, 150 ms latency and 200 KB/s download. Fixtures are removed in finally and the real manifest restored.
-- check-click-edit.cjs discovers all folders, edits each template on desktop and checks its sanitized print document. It also tests touch/coarse-pointer behavior, 86% widths, drawer layout, composite values, dates, bullets, limits, continuation pages, paste, data undo/redo and synthetic Pashto/Dari IME input. Results are `tools/click-edit-audit.json` and the `clickToEdit` entry in `tools/layout-audit.json`.
+- check-editing.cjs verifies every template has a read-only preview, that Edit CV saves through the chat, that mobile tabs work, and that saved content survives. Results are `tools/editing-audit.json` and the `editing` entry in `tools/layout-audit.json`.
 
 Reports are tools/app-audit.json, tools/layout-audit.json (also react-layout-audit.json) and tools/gallery-scale-audit.json. Build tools use local Chrome/Edge; set CHROME_PATH or install Playwright Chromium when necessary. check-legacy-layouts.cjs preserves the previous engine's checks and is separate from React verification.
 
