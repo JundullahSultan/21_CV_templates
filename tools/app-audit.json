@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T07:44:19.610Z",
+  "date": "2026-10-22T04:59:26.892Z",
   "templates": [
     "01",
     "02",
@@ -157,11 +157,11 @@
       "passed": true
     },
     {
-      "name": "Gallery and editor support ps with RTL",
+      "name": "Gallery and editor support ps with RTL UI and LTR CV",
       "passed": true
     },
     {
-      "name": "Gallery and editor support fa with RTL",
+      "name": "Gallery and editor support fa with RTL UI and LTR CV",
       "passed": true
     },
     {

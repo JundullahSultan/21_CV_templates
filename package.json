@@ -6,6 +6,7 @@
     "dev": "vite",
     "builder": "vite",
     "build": "node tools/build-app.cjs",
+    "build:static": "node tools/build-static.cjs",
     "preview": "vite preview --host 127.0.0.1",
     "generate": "node tools/update-cvs.cjs",
     "check": "node tools/check-cvs.cjs",

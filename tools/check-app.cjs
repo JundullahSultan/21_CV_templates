@@ -422,7 +422,7 @@ async function check() {
       );
     });
     for (const language of ["ps", "fa"])
-      await test(`Gallery and editor support ${language} with RTL`, async () => {
+      await test(`Gallery and editor support ${language} with RTL UI and LTR CV`, async () => {
         await page.goto(base);
         await page.getByLabel("App language").selectOption(language);
         assert.equal(await page.locator("html").getAttribute("dir"), "rtl");
@@ -431,6 +431,12 @@ async function check() {
         await page.waitForSelector(".cv-render", { state: "attached" });
         assert.equal(
           await page.locator(".cv-render").getAttribute("dir"),
+          "ltr",
+        );
+        assert.equal(
+          await page
+            .locator(".chat-panel")
+            .evaluate((element) => getComputedStyle(element).direction),
           "rtl",
         );
         assert(
