@@ -89,7 +89,12 @@ async function check() {
         found.length,
       );
       assert.equal(await page.locator(".cv-render,iframe").count(), 0);
-      assert.equal(await page.locator('img:not([loading="lazy"])').count(), 0);
+      assert.equal(
+        await page
+          .locator('[data-template-card] img:not([loading="lazy"])')
+          .count(),
+        0,
+      );
       assert(
         !galleryRequests.some((url) =>
           /template\.json|template\.css|sections\.json/.test(url),

@@ -1,0 +1,17 @@
+{
+  "name": "CV Studio by Jundullah Sultan",
+  "short_name": "CV Studio",
+  "description": "21 editable CV templates by Jundullah Sultan. WhatsApp: +93708176837.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f7f3",
+  "theme_color": "#153f35",
+  "icons": [
+    {
+      "src": "/branding/logo.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

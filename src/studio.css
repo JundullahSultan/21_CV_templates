@@ -65,18 +65,104 @@ textarea:focus-visible {
   background: #fff;
 }
 .brand {
-  font-weight: 800;
-  font-size: 28px;
-  letter-spacing: -1.3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #183e34;
   text-decoration: none;
 }
-.brand span {
-  font-weight: 400;
+.brand-mark {
+  display: block;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  flex: 0 0 auto;
 }
-.brand i {
+.brand-copy {
+  display: grid;
+  gap: 3px;
+}
+.brand-copy strong {
+  font-size: 22px;
+  letter-spacing: -0.7px;
+}
+.brand-copy small {
+  color: #718174;
   font-size: 10px;
-  color: #bba15c;
-  margin-inline-start: 5px;
+}
+.editor-brand {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.editor-brand .brand-mark {
+  width: 22px;
+  height: 22px;
+}
+.creator-support {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #dce4da;
+  border-radius: 10px;
+  background: #f6f7f3;
+}
+.creator-support .brand-mark {
+  width: 30px;
+  height: 30px;
+}
+.creator-support strong {
+  display: block;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.creator-support a {
+  font-size: 11px;
+  line-height: 1.8;
+  text-underline-offset: 3px;
+}
+.app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 28px 5vw;
+  border-block-start: 1px solid #dce3dc;
+  background: #fff;
+  color: #183e34;
+}
+.footer-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-identity strong {
+  font-size: 16px;
+}
+.footer-identity p {
+  margin-block: 5px 0;
+  color: #718174;
+  font-size: 12px;
+}
+.whatsapp-contact {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: inherit;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 12px 15px;
+  border: 1px solid #dce4da;
+  border-radius: 9px;
+}
+.whatsapp-contact:hover {
+  background: #f0f5ee;
+}
+.whatsapp-contact bdi {
+  font-weight: 600;
 }
 .app-language {
   display: flex;
@@ -516,7 +602,17 @@ body:has(.render-only) .app-header {
     padding-inline: 20px;
   }
   .brand {
-    font-size: 24px;
+    gap: 8px;
+  }
+  .brand .brand-mark {
+    width: 36px;
+    height: 36px;
+  }
+  .brand-copy strong {
+    font-size: 18px;
+  }
+  .brand-copy small {
+    font-size: 9px;
   }
   .app-language > span {
     display: none;
@@ -630,6 +726,7 @@ body:has(.render-only) .app-header {
     padding: 0 !important;
   }
   .app-header,
+  .app-footer,
   .editor-toolbar,
   .chat-panel,
   .mobile-tabs,

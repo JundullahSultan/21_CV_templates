@@ -14,6 +14,8 @@ async function buildStatic() {
   };
   required("manifest.json");
   required("sections.json");
+  required("branding/logo.png");
+  required("site.webmanifest");
   const manifest = JSON.parse(
     fs.readFileSync(path.join(root, "public/manifest.json"), "utf8"),
   );

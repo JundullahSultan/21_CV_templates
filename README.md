@@ -1,5 +1,9 @@
 # 21_CV_templates
 
+<img src="public/branding/logo.png" alt="CV Studio logo" width="88" />
+
+Created by **Jundullah Sultan** · [WhatsApp: +93708176837](https://wa.me/93708176837)
+
 A React + Vite application with React Router. Browsing, editing, autosave and printing run in the browser. Deploy `dist/` to a free static host; no backend is required.
 
 Vercel runs `npm run build:static`, which bundles the checked-in `public/templates`, `public/thumbnails`, `public/manifest.json` and `public/sections.json` assets without launching Playwright. After changing template sources or the compiler, run `npm run build` locally and commit the regenerated assets before deploying. The full local build requires Chrome or an installed Playwright Chromium browser.

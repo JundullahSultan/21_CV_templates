@@ -13,6 +13,7 @@ import {
 import { renderCv } from "./renderer.jsx";
 import { pdfExporter } from "./pdf/PdfExporter.jsx";
 import { fieldValue, setFieldValue } from "./fields.js";
+import { AppFooter, BrandMark, CreatorSupport, creator } from "./branding.jsx";
 import "./studio.css";
 import "./document.css";
 import { labelFor, fieldPrompt, descriptionFor, uiCopy } from "./labels.js";
@@ -198,9 +199,14 @@ function App() {
   return (
     <>
       <header className="app-header">
-        <Link to="/" className="brand">
-          cv<span>studio</span>
-          <i>●</i>
+        <Link to="/" className="brand" aria-label="CV Studio home">
+          <BrandMark />
+          <span className="brand-copy">
+            <strong>CV Studio</strong>
+            <small dir="ltr">
+              by <bdi>{creator}</bdi>
+            </small>
+          </span>
         </Link>
         <label className="app-language">
           <span>{t.language}</span>
@@ -232,6 +238,7 @@ function App() {
           element={<Navigate to="/" replace state={{ invalid: true }} />}
         />
       </Routes>
+      <AppFooter language={language} />
     </>
   );
 }
@@ -673,13 +680,16 @@ function EditorLoaded({ id, defs, setDefs, data, setData, language, t }) {
         <aside className="chat-panel">
           <div className="app-panel-title">
             <div>
-              <p className="app-eyebrow">{uiCopy[language].editorEyebrow}</p>
+              <p className="app-eyebrow editor-brand">
+                <BrandMark /> {uiCopy[language].editorEyebrow}
+              </p>
               <h1>{t.edit}</h1>
             </div>
             <span className="save-status">● {t.saved}</span>
           </div>
           <p className="app-muted">{t.start}</p>
           <p className="sample-note">{t.sample}</p>
+          <CreatorSupport language={language} />
           <div className="detail-buttons">
             {[
               ["name", "Full name"],
